@@ -11,13 +11,14 @@
 <body>
     <nav>
         <h1>teste</h1>
-        {% csrf token %}
-        <form action="" method="post"></form>
-            <label for="">Nome</label>
-            <input type="text" name="Nome" required>
+        {% csrf_token %}
+        <form action="/" method="post"></form>
 
             <label for="">Email</label>
             <input type="email" name="Email" id="" required>
+
+            <label for="">Senha</label>
+            <input type="text" name="Senha" required>
 
             <input type="submit" value="Enviar">
     </nav>

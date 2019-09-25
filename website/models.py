@@ -8,6 +8,7 @@ class Login(models.Model):
     nome = models.CharField(max_length=100, verbose_name='Nome')
     sobrenome = models.CharField(max_length=100, verbose_name='Sobrenome')
     usuario = models.CharField(default="", max_length=100, verbose_name='Nome de Usuário')
+    senha = models.CharField(default= "", max_length=100, verbose_name='Senha')
 
     def __str__(self):
         return self.nome
