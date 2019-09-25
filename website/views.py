@@ -8,7 +8,10 @@ def index(request):
         login.senha = request.POST['senha']
         login.save()
 
-        
+        args = {
+            'sucesso':'parabéns'
+        }
+        return render(request, 'index.html', args)
 
     return render(request, 'index.html')
 
