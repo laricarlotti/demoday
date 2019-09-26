@@ -1,7 +1,8 @@
 from django.db import models
 from django.utils import timezone
 
-class Login(models.Model):
+class User(models.Model):
+    nome_completo = models.CharField(max_length=100, verbose_name='Nome Completo')
     email = models.CharField(max_length=100, verbose_name='Email')
     senha = models.CharField(default= "", max_length=100, verbose_name='Senha')
 
