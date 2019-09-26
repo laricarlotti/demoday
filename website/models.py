@@ -10,7 +10,7 @@ class User(models.Model):
     criado_em = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.email
+        return self.nome_completo
 
     
     

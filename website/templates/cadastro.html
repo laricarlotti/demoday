@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/cadastro.css'%}">
+
+<div class="cadastro">
+    <h1>Crie sua conta no Precisei</h1>
+    <p>{{sucesso}}</p>
+
+    <form action="/" method="POST">
+        {% csrf_token %}
+
+        <label for="">Nome Completo</label>
+        <input type="text" name="nome_completo" required>
+        
+        <label for="">Email</label>
+        <input type="email" name="email" id="" required>
+    
+        <label for="">Senha</label>
+        <input type="text" name="senha" required>
+    
+        <input type="submit" value="Criar Conta">
+
+    </form>
+
+</div>
+
+{% endblock %}
+
+

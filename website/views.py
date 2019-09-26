@@ -1,17 +1,23 @@
 from django.shortcuts import render
 from website.models import *
 
-def index(request):
-    if request.method =='POST':
-        login = Login()
-        login.email = request.POST['email']
-        login.senha = request.POST['senha']
-        login.save()
+def cadastro(request):
+    if request.method == 'POST':
+        user = User()
+        user.nome_completo = request.POST['nome_completo']
+        user.email = request.POST['email']
+        user.senha = request.POST['senha']
+        user.save()
 
         args = {
-            'sucesso':'parabéns'
+            'sucesso': 'Você conseguiu campeão! Grite: Alucinação!'
         }
-        return render(request, 'index.html', args)
 
-    return render(request, 'index.html')
+        return render(request, 'cadastro.html', args)
+
+    return render(request, 'cadastro.html') 
+
+    
+
+
 

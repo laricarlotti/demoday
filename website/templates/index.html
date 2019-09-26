@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,13 +8,15 @@
     <title>Precisei</title>
 </head>
 <body>
+    {% extends "main.html" %}
+    {% load static %}
     {% block content %}
-    
+
     <nav>
         <h1>teste</h1>
         <p>{{sucesso}}</p>
 
-        <form action="/" method="post">
+        <form action="/" method="GET">
             {% csrf_token %}
         
             <label for="">Email</label>
