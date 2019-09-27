@@ -20,8 +20,29 @@ def cadastro(request):
     return render(request, 'index.html') 
 
 def index(request):
+    if request.method == 'POST':
+        formulario_email = request.POST['email']
+        formulario_senha = request.POST['senha']
+
+        user_logado = User.objects.filter(
+        user.email = formulario_email,
+        user.senha = formulario_senha).first()
+
+        if user_logado is not None:
+
+            args = {
+                'dados': user_logado
+            }
+            return render(request, 'produtos.html', args)
+        else:
+            args = {
+                'msg': 'credenciais invalidas'
+            }
+            return render(request, 'index.html', args)
+
     return render(request, 'index.html')
-    
+
+
 
     # login_email = User.email.filter(id=id).first()
     # login_senha = User.senha.filter(id=id).first()
