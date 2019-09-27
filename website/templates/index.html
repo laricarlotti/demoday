@@ -15,13 +15,13 @@
         <h1>Teste</h1>
         <p>{{sucesso}}</p>
 
-        <form action="/" method="GET">
+        <form action="/" method="POST">
             {% csrf_token %}
         
-            <label for="">Email</label>
+            <label for="email">Email</label>
             <input type="email" name="email" id="" required>
     
-            <label for="">Senha</label>
+            <label for="senha">Senha</label>
             <input type="text" name="senha" required>
     
             <input type="submit" value="Entrar">
