@@ -1,15 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from website.models import *
-
-def index(request):
-    index = User.objects.filter(ativo=True).all()
-    return render(request, 'index.html')
 
 def cadastro(request):
     if request.method == 'POST':
         user = User()
-        user.nome_completo = request.POST['nome_completo']
-        user.email = request.POST['email']
+        user.nome = request.POST['nome']
+        user.email = request.POST['email'] 
         user.senha = request.POST['senha']
         user.save()
 
@@ -17,9 +13,30 @@ def cadastro(request):
             'sucesso': 'Você conseguiu campeão! Grite: Alucinação!'
         }
 
-        return render(request, 'cadastro.html', args)
+        return render(request, 'login.html', args)
 
     return render(request, 'cadastro.html') 
+
+def index(request):
+    index = User.objects.filter(ativo=True).all()
+    return render(request, 'index.html')
+
+    # login_email = User.email.filter(id=id).first()
+    # login_senha = User.senha.filter(id=id).first()
+    # if login_email and login_senha is not None:
+    #     login_email.ativo and login_senha.ativo = False
+    #     login_email.save() and login_senha.save()
+    #     return redirect('login.html' + login_email.id and login_senha.id)
+    # return render(request, 'index.html')
+    
+
+    # login.email = User.objects.get(User.objects.filter(email=''))
+    # login.senha = User.objects.get(User.objects.filter(senha=''))
+
+    # if (login.email = True and login.senha = True) 
+    #  return render(request, 'login.html')
+
+    #  else return render(request, 'cadastro.html')
 
     
 
