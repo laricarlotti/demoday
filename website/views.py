@@ -5,7 +5,9 @@ def cadastro(request):
     if request.method == 'POST':
         user = User()
         user.nome = request.POST['nome']
-        user.email = request.POST['email'] 
+        user.email = request.POST['email']
+
+        # Aqui cria o algoritmo de criptografia 
         user.senha = request.POST['senha']
         user.save()
 
@@ -13,13 +15,13 @@ def cadastro(request):
             'sucesso': 'Você conseguiu campeão! Grite: Alucinação!'
         }
 
-        return render(request, 'login.html', args)
+        return render(request, 'index.html', args)
 
-    return render(request, 'cadastro.html') 
+    return render(request, 'index.html') 
 
 def index(request):
-    index = User.objects.filter(ativo=True).all()
     return render(request, 'index.html')
+    
 
     # login_email = User.email.filter(id=id).first()
     # login_senha = User.senha.filter(id=id).first()
