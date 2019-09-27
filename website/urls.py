@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.cadastro, name="cadastro.html"),
+    path('/cadastro', views.cadastro, name="cadastro.html"),
+    path('', views.index, name="index.html"),
 ]

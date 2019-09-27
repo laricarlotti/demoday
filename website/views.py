@@ -1,6 +1,10 @@
 from django.shortcuts import render
 from website.models import *
 
+def index(request):
+    index = User.objects.filter(ativo=True).all()
+    return render(request, 'index.html')
+
 def cadastro(request):
     if request.method == 'POST':
         user = User()
