@@ -5,19 +5,19 @@
 <link rel="stylesheet" href="{% static 'css/cadastro.css'%}">
 
 <div class="cadastro">
-    <h1>Crie sua conta no Precisei</h1>
+    <h1>Crie sua conta</h1>
     <p>{{sucesso}}</p>
 
     <form action="/cadastro/" method="POST">
         {% csrf_token %}
 
-        <label for="">Nome Completo</label>
+        <label for="nome">Nome</label>
         <input type="text" name="nome" required>
         
-        <label for="">Email</label>
+        <label for="email">Email</label>
         <input type="email" name="email" id="" required>
     
-        <label for="">Senha</label>
+        <label for="senha">Senha</label>
         <input type="text" name="senha" required>
     
         <input type="submit" value="Criar Conta">

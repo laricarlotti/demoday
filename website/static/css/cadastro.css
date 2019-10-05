@@ -1,14 +1,63 @@
 .cadastro{
-    align-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
     width: 100vw;
 
 }
-
-form{
-    height: 400px;
+.cadastro h1{
+    color: #FC334F;
     display: flex;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 22px;
+    height: 31px;
+    left: 100px;
+    letter-spacing: 0.045em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 114px;
+    width: 224px;
+
+}
+.cadastro form:nth-child(3){
+    height: 700px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+
+}
+@font-face{
+    font-family: "Axilforma-ExtraBold";
+    src: url(../fonts/Axilforma-ExtraBold.otf) format("truetype");
+
+}
+@font-face{
+    font-family: "Axilforma-Regular";
+    src: url(../fonts/Axilforma-Regular.otf) format("truetype");
+
+}
+label[for=nome]{
+    position: absolute;
+    width: 224px;
+    height: 53px;
+    left: 20px;
+    top: 210px;
+    font-family: "Axilforma-Regular";
+    line-height: 148.9%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #9B9B9B;
+}
+
+input[type=text] {
+    position: absolute;
+    width: 336px;
+    height: 50px;
+    left: 20px;
+    top: 257px;
+    border: 1px solid #C4C4C4;
+
 }
