@@ -39,17 +39,17 @@
 
 }
 label[for=nome]{
-    position: absolute;
-    width: 224px;
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    font-family: "Axilforma-Regular";
     height: 53px;
     left: 20px;
-    top: 210px;
-    font-family: "Axilforma-Regular";
-    line-height: 148.9%;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.005em;
-    color: #9B9B9B;
+    line-height: 148.9%;
+    position: absolute;
+    top: 210px;
+    width: 224px;
 }
 
 input[type=text] {
@@ -61,3 +61,30 @@ input[type=text] {
     border: 1px solid #C4C4C4;
 
 }
+
+form [for=email]{
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    font-family: "Axilforma-Regular";
+    height: 53px;
+    left: 20px;
+    letter-spacing: 0.005em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 333px;
+    width: 224px;
+    
+}
+
+input[type=email] {
+    position: absolute;
+    width: 336px;
+    height: 53px;
+    left: 20px;
+    top: 379px;
+    border: 1px solid #C4C4C4;
+
+}
+
+form [for=senha]
