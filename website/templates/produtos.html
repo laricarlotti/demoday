@@ -1,1 +1,30 @@
-<h1>DEU CERTO PORRA</h1>
+{% extends "main.html" %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/cadastro.css'%}">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+
+<body>
+    <nav></nav>
+    <section>PRODUTO</section>
+        <img src="" alt="">
+        <h1>Título</h1>
+        <h2>Subtitulo</h2>
+        <div>quantidade</div>
+        <div>preço</div>
+        <h3>titulo2</h3>
+        <h4>subtitulo2</h4>
+        <button>Reservar Produto</button>
+        <button>Faça uma pergunta</button>
+    <section>PROPRIETARIO</section>
+        <img src="" alt="foto-de-perfil">
+        <h1>Nome do proprietario</h1>
+        <h2>local</h2>
+        <div>avaliação</div>
+            <img src="" alt="estrelas-avaliacao">
+        <div>ativo desde</div>
+    <section>RELACIONADOS</section>
+</body>
+
+{% endblock %}
