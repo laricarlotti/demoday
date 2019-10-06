@@ -41,26 +41,8 @@ def index(request):
 
     return render(request, 'index.html')
 
-
-
-    # login_email = User.email.filter(id=id).first()
-    # login_senha = User.senha.filter(id=id).first()
-    # if login_email and login_senha is not None:
-    #     login_email.ativo and login_senha.ativo = False
-    #     login_email.save() and login_senha.save()
-    #     return redirect('login.html' + login_email.id and login_senha.id)
-    # return render(request, 'index.html')
     
-
-    # login.email = User.objects.get(User.objects.filter(email=''))
-    # login.senha = User.objects.get(User.objects.filter(senha=''))
-
-    # if (login.email = True and login.senha = True) 
-    #  return render(request, 'login.html')
-
-    #  else return render(request, 'cadastro.html')
-
-    
-
+def produtos(request):
+    return render(request, 'produtos.html')
 
 

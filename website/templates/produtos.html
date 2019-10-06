@@ -1,20 +1,9 @@
-<!-- {% extends "main.html" %}
+{% extends "main.html" %}
 {% load staticfiles %}
 {% block content %} -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="website/static/css/produtos.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <nav></nav>
-    <section class="produto-principal">PRODUTO</section>
+<div class= "produtos">
+    <section class="produto-principal">
         <img src="" alt="">
         <h1>Título</h1>
         <h2>Subtitulo</h2>
@@ -24,14 +13,20 @@
         <h4>subtitulo2</h4>
         <button>Reservar Produto</button>
         <button>Faça uma pergunta</button>
-    <section>PROPRIETARIO</section>
+    </section>
+    
+    <section classs="proprietario">
         <img src="" alt="foto-de-perfil">
         <h1>Nome do proprietario</h1>
         <h2>local</h2>
         <div>avaliação</div>
             <img src="" alt="estrelas-avaliacao">
         <div>ativo desde</div>
-    <section>RELACIONADOS</section>
-</body>
+    </section>
+    
+    <section class="relacionados">
+    
+    </section>
+</div>
 
-<!-- {% endblock %} -->
+{% endblock %}
