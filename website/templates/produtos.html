@@ -1,32 +1,42 @@
 {% extends "main.html" %}
 {% load staticfiles %}
-{% block content %} -->
+{% block content %}
 
-<div class= "produtos">
-    <section class="produto-principal">
-        <img src="" alt="">
-        <h1>Título</h1>
-        <h2>Subtitulo</h2>
-        <div>quantidade</div>
-        <div>preço</div>
-        <h3>titulo2</h3>
-        <h4>subtitulo2</h4>
-        <button>Reservar Produto</button>
-        <button>Faça uma pergunta</button>
-    </section>
+<body class="body-produtos">
     
-    <section classs="proprietario">
+    <nav>
+
+    </nav>
+    <div class= "produtos">
+        <section class="produto-principal">
+            <img class="imagem-principal" src="{% static 'img/batedeira.png' %}" alt="">
+            <p class="nome-produto"> <strong> Batedeira Planetária </strong> Kitchenaid </p>
+            <h2 class="descricao-produto">Automática - Bivolt</h2>
+        </section>
+        <section class="section-2">
+            <div class="quantidade"> + 2 -</div>
+            <div class="preco"> R$ 000,00 </div>
+        </section>
+        <section class="section-3">
+            <h3>titulo2</h3>
+            <h4>subtitulo2</h4>
+            <button>Reservar Produto</button>
+            <button>Faça uma pergunta</button>
+        </section>
+    
+        <section class="proprietario">
         <img src="" alt="foto-de-perfil">
         <h1>Nome do proprietario</h1>
         <h2>local</h2>
         <div>avaliação</div>
             <img src="" alt="estrelas-avaliacao">
         <div>ativo desde</div>
-    </section>
+        </section>
     
-    <section class="relacionados">
+        <section class="relacionados">
     
-    </section>
-</div>
+        </section>
+    </div>
+</body>
 
 {% endblock %}
