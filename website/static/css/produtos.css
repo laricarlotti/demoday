@@ -1,3 +1,11 @@
-.produto-principal{
-    
+.imagem-principal{
+position: absolute;
+width: 217px;
+height: 286px;
+left: 79px;
+top: 102px;
+
+background: url(KIt_amarela.png);
+background-blend-mode: multiply;
+  
 }
