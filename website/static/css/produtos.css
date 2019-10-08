@@ -1,3 +1,89 @@
+.body-produtos{
+    display: grid;
+    grid-template-areas: 'nav nav nav',
+                         'header'
+                         'quantidade preco'               
+                         'section3'
+                         'section4'
+                         'section5';
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 5vh 50vh 35vh 35vh 20vh;
+    margin: 0;
+    background-color: white;
+    display: block;
+}
+
+.descricao-produto{
+    position: absolute;
+    width: 246px;
+    height: 21px;
+    left: 19px;
+    top: 370px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #3E3E3E;
+}
+
+.imagem-principal{
+    margin-top: 60px;
+    width: 217px;
+    height: 286px;
+    left: 79px;
+    top: 102px;
+}
+.nome-produto{
+    position: absolute;
+    width: 320px;
+    height: 44px;
+    left: 20px;
+    top: 330px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148.9%;
+    letter-spacing: 0.03em;
+    color: #292929;
+}
+
 .produto-principal{
-    
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2{
+    margin-top: 90px; 
+}
+
+.section-3{
+    grid-area: section3;
+}
+
+.proprietario{
+    grid-area: section4;
+}
+
+.relacionados{
+    grid-area: relacionados;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+
+
+.quantidade{
+    grid-area: quantidade;
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+
+.preco{
+    grid-area: preco;
+    width: 40%;
+    float: right;
 }
