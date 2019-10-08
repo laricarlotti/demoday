@@ -1,5 +1,5 @@
 
-body{
+.body-index{
     display: grid;
     grid-template-areas: 'nav nav nav ',
                          'header header'
