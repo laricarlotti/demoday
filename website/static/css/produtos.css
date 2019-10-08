@@ -1,11 +1,37 @@
-.imagem-principal{
-position: absolute;
-width: 217px;
-height: 286px;
-left: 79px;
-top: 102px;
+.body-produtos{
+    display: grid;
+    grid-template-areas: 'nav nav nav',
+                         'header'
+                         'section2 section2'               
+                         'section3'
+                         'section4'
+                         'section5';
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 10vh 50vh 35vh 35vh 20vh;
+    margin: 0;
+    background-color: aqua;
+}
 
-background: url(KIt_amarela.png);
-background-blend-mode: multiply;
-  
+.produto-principal{
+    grid-area: header;
+}
+
+.section-2{
+    grid-area: section2;
+}
+
+.section-3{
+    grid-area: section3;
+}
+
+.proprietario{
+    grid-area: section4;
+}
+
+.relacionados{
+    grid-area: relacionados;
+}
+
+.nav{
+    grid-area: nav;
 }
