@@ -1,6 +1,6 @@
 {% extends "main.html" %}
 {% load staticfiles %}
-{% block css %} href="{% static 'css/produtos.css' %}" {% endblock %}
+{% block css %} href="{% static 'css/produtos.css' %}" {% endblock%}
 {% block content %}
 
 <body class="body-produtos">
@@ -11,24 +11,24 @@
     <div class= "produtos">
         <section class="produto-principal">
             <img class="imagem-principal" src="{% static 'img/batedeira.png' %}" alt="">
-            <p class="nome-produto"> <strong> Batedeira Planetária </strong> Kitchenaid </p>
-            <h1 class="descricao-produto">Automática - Bivolt</h1>
+            <p class="nome-produto"> Batedeira Planetária </p> <p class="marca">Kitchenaid </p>
+            <h1>Eletroportáteis</h1>
         </section>
         <section class="section-2">
             <div class="quantidade"> + 2 -</div>
             <div class="preco"> R$ 000,00 </div>
         </section>
         <section class="section-3">
-            <h3>titulo2</h3>
-            <h4>subtitulo2</h4>
-            <button>Reservar Produto</button>
-            <button>Faça uma pergunta</button>
+            <h2>Automática - 10 velocidades</h2>
+            <h3>Movimento planetário 59 pontos de contato na lateral da tigela, proporcionando uma mistura rápida e homogênea além de permitir maior precisão para obter misturas perfeitas.</h3>
+            <button class="button-reservar">Reservar Produto</button>
+            <button class="button-perguntar">Faça uma pergunta</button>
         </section>
     
         <section class="proprietario">
         <img src="" alt="foto-de-perfil">
-        <h1>Nome do proprietario</h1>
-        <h2>local</h2>
+        <h4>Nome do proprietario</h4>
+        <h5>local</h5>
         <div>avaliação</div>
             <img src="" alt="estrelas-avaliacao">
         <div>ativo desde</div>
@@ -41,3 +41,4 @@
 </body>
 
 {% endblock %}
+
