@@ -1,7 +1,9 @@
 
+    
+
 .body-index{
     display: grid;
-    grid-template-areas: 'nav nav '
+    grid-template-areas: 'nav nav'
                          'header header'
                          'section section'
                          'article article'
@@ -10,6 +12,7 @@
     grid-template-columns: 49vw 49vw;
     grid-template-rows: 5vh 38vh 35vh 35vh 13vh;
     margin: 0;
+    padding: 0;
 }
 body::-webkit-scrollbar{
     width: 0px;
@@ -33,7 +36,8 @@ header{
     grid-area: header;
     width: 375px;
     height: 325px;
-    background-color: #F9F9F9;
+    
+    
 }
 
 section{

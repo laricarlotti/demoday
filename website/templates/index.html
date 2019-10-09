@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 {% extends "main.html" %}
 {% load static %}
+{% block content %}
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -10,9 +12,8 @@
     <title>Precisei</title>
 </head>
 <body class="body-index">
-    {% block content %}
     <nav>
-        <h1>Teste</h1>
+        <!--<h1>Teste</h1>
         <p>{{dados}}</p>
 
         <form action="/" method="POST">
@@ -26,11 +27,12 @@
     
             <input type="submit" value="Entrar">
 
-        </form>
+        </form>-->
 
     </nav>
     <header> 
-        <h1>header</h1>
+       
+        <img src="{% static 'img/fundo_header.png' %}" alt="">
     </header>
     <section>
         <h1>carrossel</h1>
