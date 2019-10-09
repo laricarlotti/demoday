@@ -26,6 +26,7 @@ button{
     border-style: solid;
     border-width: 1px;
     border-radius: 6px;
+    font-size: 16px;
 }
 
 .button-reservar{
@@ -39,6 +40,25 @@ button{
     background-color: white;
     color:#ff8754;
     top: 665px;
+}
+
+.dados-principais{
+    position: absolute;
+    display: block;
+    left: 90px;
+    top: -1px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    color: #3E3E3E;
+}
+
+.foto-perfil{
+    position: relative;
+    width: 52px;
+    height: 52px;
+    left: 20px;
+    border-radius: 50%;
 }
 
 h1{
@@ -73,6 +93,15 @@ h3{
     font-weight: 100;
     right: 40px;
 
+}
+
+h4{
+
+}
+
+h5{
+    margin-block-start: -1.33em;
+    font-weight: 100;
 }
 
 .imagem-principal{
@@ -124,6 +153,8 @@ p{
 
 .proprietario{
     grid-area: section4;
+    position: relative;
+    top: 300px;
 }
 
 .relacionados{
@@ -134,7 +165,10 @@ p{
     grid-area: nav;
 }
 
+.perfil{
+    display: inline-flex;
 
+}
 
 .quantidade{
     grid-area: quantidade;
