@@ -1,3 +1,27 @@
+.ativacao{
+    display: flex;
+    flex-direction: column;
+
+}
+.ativo{
+    display: flex;
+    width: 50%;
+    float: right;
+    margin-inline-end: 100px;
+    font-weight: bold;
+}
+.avaliacao{
+    width: 50%;
+    position: relative;
+    float: left;
+    left: 20px;
+    font-weight: 200;
+}
+.avaliacao img{
+     position: relative;
+     width: 100px;
+}
+
 .body-produtos{
 /* display: grid;
     grid-template-areas: 'nav nav nav',
@@ -53,6 +77,12 @@ button{
     color: #3E3E3E;
 }
 
+.data-entrada{
+    
+    margin-block-start: 0.0;
+    font-weight: 200;
+}
+
 .foto-perfil{
     position: relative;
     width: 52px;
@@ -95,13 +125,18 @@ h3{
 
 }
 
-h4{
-
-}
-
 h5{
     margin-block-start: -1.33em;
     font-weight: 100;
+}
+
+h6{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    color: #3E3E3E;
+    margin-block-end: 0.33em;
+    font-weight: 200;
 }
 
 .imagem-principal{
@@ -168,6 +203,12 @@ p{
 .perfil{
     display: inline-flex;
 
+}
+
+.reputacao{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
 }
 
 .quantidade{
