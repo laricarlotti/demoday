@@ -1,15 +1,18 @@
 
+    
+
 .body-index{
     display: grid;
-    grid-template-areas: 'nav nav '
+    grid-template-areas: 
                          'header header'
                          'section section'
                          'article article'
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 49vw 49vw;
-    grid-template-rows: 5vh 38vh 35vh 35vh 13vh;
+    grid-template-rows:  38vh 35vh 35vh 13vh;
     margin: 0;
+    padding: 0;
 }
 body::-webkit-scrollbar{
     width: 0px;
@@ -33,7 +36,44 @@ header{
     grid-area: header;
     width: 375px;
     height: 325px;
-    background-color: #F9F9F9;
+    background-image: url("../img/fundo_header.png");
+    
+    
+}
+
+header h1{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 20px;
+    top: 96px;
+
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 148.9%;
+
+    letter-spacing: 0.045em;
+
+    color: #FC334F;
+}
+header h2{
+    position: absolute;
+    width: 221px;
+    height: 53px;
+    left: 20px;
+    top: 175px;
+
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 148.9%;
+
+    letter-spacing: 0.045em;
+
+    color: #3E3E3E;
 }
 
 section{

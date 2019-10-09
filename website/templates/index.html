@@ -2,7 +2,7 @@
 {% extends "main.html" %}
 {% load static %}
 {% block css %} href="{% static 'css/style.css' %}" {% endblock %}
-
+{% block content %}
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +12,8 @@
     <title>Precisei</title>
 </head>
 <body class="body-index">
-    {% block content %}
-    <nav>
-        <h1>Teste</h1>
+   <!-- <nav>
+       <h1>Teste</h1>
         <p>{{dados}}</p>
 
         <form action="/" method="POST">
@@ -30,9 +29,11 @@
 
         </form>
 
-    </nav>
+    </nav>-->
     <header> 
-        <h1>header</h1>
+       <h1>Lorem ipsum dolor sit amet</h1>
+       <h2>Sed lacinia dolor laoreet augue mollis tincidunt. Proin viverra leo</h2>
+        
     </header>
     <section>
         <h1>carrossel</h1>
@@ -79,6 +80,7 @@
         </div>
     </footer>
 
-    {% endblock %}
 </body>
 </html>
+
+{% endblock %}
