@@ -1,5 +1,5 @@
 .body-produtos{
-    display: grid;
+/* display: grid;
     grid-template-areas: 'nav nav nav',
                          'header'
                          'quantidade preco'               
@@ -10,14 +10,38 @@
     grid-template-rows: 5vh 50vh 35vh 35vh 20vh;
     margin: 0;
     background-color: white;
-    display: block;
+    display: block; */
+    margin: 0;
+}
+
+button{
+    position: absolute;
+    width: 336px;
+    height: 49.17px;
+    left: 19px;
+    box-sizing: border-box;
+    margin: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+.button-reservar{
+    top: 600px;
+    background-color: #ff8754;
+    color: white;
+
+}
+
+.button-perguntar{
+    background-color: white;
+    color:#ff8754;
+    top: 665px;
 }
 
 h1{
-    color: blue;
-}
-
-.descricao-produto{
     position: absolute;
     width: 246px;
     height: 21px;
@@ -29,6 +53,28 @@ h1{
     color: #3E3E3E;
 }
 
+h2, h3{
+    position: absolute;
+    height: 128px;
+    left: 20px;
+    top: 465px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #3E3E3E;
+    letter-spacing: 0.06em;
+}
+
+h3{
+    top: 490px;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 100;
+    right: 40px;
+
+}
+
 .imagem-principal{
     margin-top: 60px;
     width: 217px;
@@ -36,18 +82,29 @@ h1{
     left: 79px;
     top: 102px;
 }
-.nome-produto{
+
+.marca{
+    font-weight: 300;
+    left: 213px;
+}
+
+.nome-produto{   
+    font-weight: 900;
+
+}
+p{
+    display: inline-block;
     position: absolute;
     width: 320px;
     height: 44px;
     left: 20px;
-    top: 330px;
+    top: 325px;
     font-family: Roboto;
-    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     line-height: 148.9%;
-    letter-spacing: 0.03em;
-    color: #292929;
+    letter-spacing: 0.06em;
+    color: #3E3E3E;
 }
 
 .produto-principal{
@@ -81,13 +138,12 @@ h1{
 
 .quantidade{
     grid-area: quantidade;
-    width: 50%;
+    width: 187px;
     float: left;
-    padding-left: 30px;
 }
 
 .preco{
     grid-area: preco;
-    width: 40%;
+    width: 187px;
     float: right;
 }
