@@ -1,5 +1,6 @@
 {% extends "main.html" %}
 {% load staticfiles %}
+{% block css %} href="{% static 'css/produtos.css' %}" {% endblock %}
 {% block content %}
 
 <body class="body-produtos">
@@ -11,7 +12,7 @@
         <section class="produto-principal">
             <img class="imagem-principal" src="{% static 'img/batedeira.png' %}" alt="">
             <p class="nome-produto"> <strong> Batedeira Planetária </strong> Kitchenaid </p>
-            <h2 class="descricao-produto">Automática - Bivolt</h2>
+            <h1 class="descricao-produto">Automática - Bivolt</h1>
         </section>
         <section class="section-2">
             <div class="quantidade"> + 2 -</div>
