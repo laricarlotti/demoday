@@ -1,0 +1,115 @@
+
+nav{
+
+    position: absolute;
+    width: 375px;
+    height: 42px;
+    left: 0px;
+    top: 7px;
+    background: rgba(255, 255, 255, 0.76);
+
+}
+
+.busca_mobile{
+
+    position: absolute;
+    left: 24.27%;
+    right: 21.33%;
+    top: 23.81%;
+    bottom: 23.81%;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    cursor:pointer;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-around;
+   
+    width: 30px;
+    align-items: flex-end;
+    position: absolute;
+    left: 89.6%;
+    right: 5.87%;
+    top: 2.71%;
+    bottom: 95.75%;
+
+}
+
+span{
+    border: 1.5px solid #7F7F7F;
+    display: block;
+   
+    transition: .6s;
+    width: 100%;
+}
+
+.traco-1, .traco-3{
+    transform-origin: right center;
+}
+
+.ativo .traco-1{
+    transform: rotateZ(-45deg);
+}
+
+.ativo .traco-2{
+    opacity: 0;
+}
+
+.ativo .traco-3{
+    transform: rotateZ(45deg);
+}
+/*body{
+    margin: 0px;
+}
+
+.logo{
+    height: 65px;
+    width: 145px;
+}
+
+.a_logo{
+    margin-left: 45px;
+    margin-top: 5px;
+}   
+
+.menu{
+    margin-right: 25px;
+}
+
+#menu_login, #menu_logout{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3c7c21;
+    align-items: center;
+    position: fixed;
+    font-family: 'Spinnaker', sans-serif;
+    transition: .7s;
+    width: 100%;
+    height: 11.6vh;
+    z-index: 5;
+    text-size-adjust: 15px;
+}
+
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    align-items: flex-start;
+    color: #cef2bd;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.menu a:hover{
+    background-color: #83a1659a;
+    transition: 0.7s;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.login, .logout{
+    border: 2px solid;
+}*/

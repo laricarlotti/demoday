@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-{% extends "main.html" %}
+
 {% load static %}
-{% block css %} href="{% static 'css/style.css' %}" {% endblock %}
-{% block content %}
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/website/static/css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nav.css' %}">
     <title>Precisei</title>
 </head>
 <body class="body-index">
+        {% include 'shared/nav.html' %}
    <!-- <nav>
        <h1>Teste</h1>
         <p>{{dados}}</p>
@@ -83,4 +84,3 @@
 </body>
 </html>
 
-{% endblock %}
