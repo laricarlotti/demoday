@@ -31,11 +31,11 @@ body{
                          'section3'
                          'section4'
                          'section5';
-    grid-template-columns: 100vw;
+    grid-template-columns: 50vw 50vw;
     grid-template-rows: 5vh 50vh 35vh 35vh 20vh;
-    margin: 0;
+    margin: 0; */
     background-color: white;
-    display: block; */
+    display: block;
     margin: 0;
     
 }
@@ -152,6 +152,7 @@ h6{
 .marca{
     font-weight: 300;
     left: 213px;
+    width: 0px;
 }
 
 .nome-produto{   
@@ -182,6 +183,7 @@ p{
 
 .section-2{
     margin-top: 90px; 
+    width: 375px;
 }
 
 .section-3{
@@ -192,7 +194,8 @@ p{
     top: 30px; 
     left: 160px;
     font-size: 36pt;
-    color: #a2a2a2
+    color: #a2a2a2;
+    width: 0;
 }
 
 .proprietario{
