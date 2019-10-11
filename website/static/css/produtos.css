@@ -1,6 +1,7 @@
 .ativacao{
     display: flex;
     flex-direction: column;
+    margin-inline-start: 25px;
 
 }
 .ativo{
@@ -22,20 +23,21 @@
      width: 100px;
 }
 
-.body-produtos{
-/* display: grid;
+body{
+    /* display: grid;
     grid-template-areas: 'nav nav nav',
                          'header'
                          'quantidade preco'               
                          'section3'
                          'section4'
                          'section5';
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 100vw;
     grid-template-rows: 5vh 50vh 35vh 35vh 20vh;
     margin: 0;
     background-color: white;
     display: block; */
     margin: 0;
+    
 }
 
 button{
@@ -79,7 +81,7 @@ button{
 
 .data-entrada{
     
-    margin-block-start: 0.0;
+    margin-block-start: 3px;
     font-weight: 200;
 }
 
@@ -184,6 +186,13 @@ p{
 
 .section-3{
     grid-area: section3;
+}
+
+.separador{
+    top: 30px; 
+    left: 160px;
+    font-size: 36pt;
+    color: #a2a2a2
 }
 
 .proprietario{
