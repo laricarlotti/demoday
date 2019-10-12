@@ -1,22 +1,19 @@
 
 nav{
 
-    position: absolute;
-    width: 375px;
-    height: 42px;
-    left: 0px;
-    top: 7px;
+    width:  375px;
+    height:  42px;
     background: rgba(255, 255, 255, 0.76);
+    display: flex;
+     
+
 
 }
 
 .busca_mobile{
 
-    position: absolute;
-    left: 24.27%;
-    right: 21.33%;
-    top: 23.81%;
-    bottom: 23.81%;
+    width: 204px;
+    height:  22px;
     background-color: black;
 }
 
