@@ -1,10 +1,21 @@
+.logo{
+    width;: 49px;
+    height: 21px;
+    background-color: black;
+}
 
-
+input[type=email] {
+    border: 1px solid #C4C4C4;
+    width: 204px;
+    height: 22px;
+}
 
 nav{
 
-    position: absolute;
-    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     height: 42px;
     left: 0px;
     top: 7px;
@@ -25,14 +36,10 @@ nav{
     flex-direction: column;
     height: 30px;
     justify-content: space-around;
-    margin: 10px;
+    
     width: 30px;
     align-items: flex-end;
-    position: absolute;
-    left: 89.6%;
-    right: 5.87%;
-    top: 2.71%;
-    bottom: 95.75%;
+    
 
 }
 
