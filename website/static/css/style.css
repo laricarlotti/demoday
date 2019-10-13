@@ -3,14 +3,14 @@
 
 .body-index{
     display: grid;
-    grid-template-areas: 'nav nav'
+    grid-template-areas: 
                          'header header'
                          'section section'
                          'article article'
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 49vw 49vw;
-    grid-template-rows:  10vh 38vh 35vh 35vh 13vh;
+    grid-template-rows:  38vh 35vh 35vh 13vh;
     margin: 0;
     padding: 0;
 }
