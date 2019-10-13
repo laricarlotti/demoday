@@ -1,19 +1,24 @@
 
-nav{
 
-    width:  375px;
-    height:  42px;
+
+/*nav{
+
+    position: absolute;
+    width: 375px;
+    height: 42px;
+    left: 0px;
+    top: 7px;
     background: rgba(255, 255, 255, 0.76);
-    display: flex;
-     
-
 
 }
 
 .busca_mobile{
 
-    width: 204px;
-    height:  22px;
+    position: absolute;
+    left: 24.27%;
+    right: 21.33%;
+    top: 23.81%;
+    bottom: 23.81%;
     background-color: black;
 }
 
@@ -23,7 +28,7 @@ nav{
     flex-direction: column;
     height: 30px;
     justify-content: space-around;
-   
+    margin: 10px;
     width: 30px;
     align-items: flex-end;
     position: absolute;
@@ -35,9 +40,9 @@ nav{
 }
 
 span{
-    border: 1.5px solid #7F7F7F;
+    background-color: black;
     display: block;
-   
+    height: 3px;
     transition: .6s;
     width: 100%;
 }
@@ -56,8 +61,10 @@ span{
 
 .ativo .traco-3{
     transform: rotateZ(45deg);
-}
-/*body{
+}*/
+
+
+body{
     margin: 0px;
 }
 
@@ -109,4 +116,4 @@ span{
 
 .login, .logout{
     border: 2px solid;
-}*/
+}
