@@ -56,7 +56,7 @@ button{
 }
 
 .button-reservar{
-    top: 600px;
+    top: 650px;
     background-color: #ff8754;
     color: white;
 
@@ -65,7 +65,7 @@ button{
 .button-perguntar{
     background-color: white;
     color:#ff8754;
-    top: 665px;
+    top: 715px;
 }
 
 .dados-principais{
@@ -109,7 +109,7 @@ h2, h3{
     position: absolute;
     height: 128px;
     left: 20px;
-    top: 465px;
+    top: 510px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -119,7 +119,7 @@ h2, h3{
 }
 
 h3{
-    top: 490px;
+    top: 540px;
     font-size: 14px;
     text-align: justify;
     font-weight: 100;
@@ -143,6 +143,12 @@ h6{
 
 input{
     width: 40px;
+    border-width: 0.7px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: blue;
+    height: 30px;
+    border: none;
     
 
 }
@@ -188,8 +194,11 @@ p{
 }
 
 .section-2{
-    margin-top: 90px; 
+    margin-top: 100px; 
     width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .section-3{
@@ -235,12 +244,18 @@ p{
 
 .quantidade{
     grid-area: quantidade;
-    width: 150px;
+    width: 120px;
+    height: 35px;
     float: left;
     display: flex;
     margin-inline-start: 20px;
-    
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 0.5px;
 }
+
 
 .reputacao{
     display: flex;
