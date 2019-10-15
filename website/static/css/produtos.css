@@ -1,14 +1,14 @@
 .ativacao{
     display: flex;
     flex-direction: column;
-    margin-inline-start: 25px;
+    margin-inline-start: 60px;
 
 }
 .ativo{
     display: flex;
     width: 50%;
     float: right;
-    margin-inline-end: 100px;
+    margin-inline-end: 120px;
     font-weight: bold;
 }
 .avaliacao{
@@ -86,7 +86,7 @@ button{
 }
 
 .foto-perfil{
-    position: relative;
+    position: absolute;
     width: 52px;
     height: 52px;
     left: 20px;
@@ -141,6 +141,11 @@ h6{
     font-weight: 200;
 }
 
+input{
+    width: 40px;
+
+}
+
 .imagem-principal{
     margin-top: 60px;
     width: 217px;
@@ -191,11 +196,12 @@ p{
 }
 
 .separador{
-    top: 30px; 
     left: 160px;
     font-size: 36pt;
     color: #a2a2a2;
     width: 0;
+    position: sticky;
+    margin-top: 10px;
 }
 
 .proprietario{
@@ -220,13 +226,16 @@ p{
 .reputacao{
     display: flex;
     flex-direction: row;
-    margin-top: -10px;
+    position: absolute;
+    margin-top: 45px;
 }
 
 .quantidade{
     grid-area: quantidade;
     width: 187px;
     float: left;
+    display: flex;
+    margin-inline-start: 20px;
 }
 
 .preco{
