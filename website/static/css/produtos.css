@@ -143,6 +143,7 @@ h6{
 
 input{
     width: 40px;
+    
 
 }
 
@@ -223,6 +224,24 @@ p{
 
 }
 
+.preco{
+    grid-area: preco;
+    font-family: Roboto;
+    width: 160px;
+    float: right;
+    letter-spacing: 1px;
+
+}
+
+.quantidade{
+    grid-area: quantidade;
+    width: 150px;
+    float: left;
+    display: flex;
+    margin-inline-start: 20px;
+    
+}
+
 .reputacao{
     display: flex;
     flex-direction: row;
@@ -230,16 +249,7 @@ p{
     margin-top: 45px;
 }
 
-.quantidade{
-    grid-area: quantidade;
-    width: 187px;
-    float: left;
-    display: flex;
-    margin-inline-start: 20px;
-}
-
-.preco{
-    grid-area: preco;
-    width: 187px;
-    float: right;
+span{
+    font-size: 20px;
+    font-weight:bold;
 }
