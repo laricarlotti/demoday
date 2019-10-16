@@ -10,7 +10,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 49vw 49vw;
-    grid-template-rows: 6vh 38vh 35vh 35vh 13vh;
+    grid-template-rows: 6vh 38vh 35vh 35vh 35vh 25vh;
     margin: 0;
     padding: 0;
 }
@@ -22,18 +22,39 @@ body::-webkit-scrollbar{
     width: 0px;
 }
 article{
+    background-color:#E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
     grid-area: article;
-    background-color: blue;
 }
 aside{
     grid-area: aside;
-    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    
+}
 
+aside h3{
+    margin: 0;
+    font-style: normal;
+    color: #FC334F;
+}
+
+aside div.texto input{
+   margin: 0;
+   width: 78px;
 }
 
 footer{
     grid-area: footer;
-    background-color: antiquewhite;
+    background-color:#F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 20px 20px;
+}
+
+footer div.todas a{
+    text-decoration: none;
+
 }
 
 header{
