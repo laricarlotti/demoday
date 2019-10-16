@@ -1,8 +1,3 @@
-let idade = Number(prompt("Qual a sua idade?"));
+// PARA SABER SE JS ESTÁ FUNCIONANDO COLOCAR NO CONSOLE A VARIAVEL E DEVE APARECER O VALOR DELA
 
-while(idade < 0 || isNaN(idade)){
-    alert("Idade inválida. Por favor digite novamente")
-    idade = Number(prompt("Qual a sua idade?"));
-}
-
-let teste = 'oi'
+// let teste = 'oi'  (teste é a variavel - Oi é o valor)
