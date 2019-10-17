@@ -1,6 +1,3 @@
-
-    
-
 .body-index{
     display: grid;
     grid-template-areas: 'nav nav'
@@ -9,8 +6,8 @@
                          'article article'
                          'aside aside'
                          'footer footer ';
-    grid-template-columns: 49vw 49vw;
-    grid-template-rows: 6vh 38vh 35vh 35vh 35vh 25vh;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 6vh 38vh 35vh 35vh 35vh 35vh;
     margin: 0;
     padding: 0;
 }
@@ -45,17 +42,39 @@ aside div.texto input{
 }
 
 footer{
+    align-items: center;
+    background: #F7F7F7;
+    display: flex; 
+    flex-direction: row;
     grid-area: footer;
-    background-color:#F7F7F7;
-    font-family: 'Roboto', sans-serif;
+}
+footer .todas{
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+footer .todas div{
+    display: flex;
+    flex-direction: column;
+    font-family:'Roboto', sans-serif;
     font-size: 12px;
-    padding: 20px 20px;
+    width: 100px;
 }
-
-footer div.todas a{
+footer .todas div a{
+    color: #000000;
+    font-weight: 100;
+    line-height: 13pt;
     text-decoration: none;
-
 }
+
+footer .negrito{
+    background: #F7F7F7;
+    font-weight: 500;
+    height: 20px;
+}
+
+
 
 header{
     grid-area: header;
@@ -104,4 +123,10 @@ header h2{
 section{
     grid-area: section;
     background-color: aqua;
+}
+
+@font-face{
+    font-family: "Axilforma-ExtraBold";
+    src: url(../fonts/Axilforma-ExtraBold.otf) format("truetype");
+
 }
