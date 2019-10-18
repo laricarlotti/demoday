@@ -7,7 +7,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 6vh 38vh 35vh 170vh 100vh 35vh;
+    grid-template-rows: 6vh 38vh 35vh 190vh 100vh 35vh;
     margin: 0;
     padding: 0;
 }
@@ -37,21 +37,26 @@ article .all .categoria h2{
     letter-spacing: 0.045em;
 }
 
-article  button{
+article  .bloco1 .botao button{
     background-color:#ff8754;
     color: white;
     font-family: Roboto;
     height: 30px;
     left: 20px;
+    position: absolute;
     width: 140px;
-    top: 700;
+    top: 765px;
     border-radius: 5px;
     border-style: solid;
     border-width: 0.5px;
-    position: absolute;
+    
 }
 article .blocos img{
     height: 150px;
+    margin-top: 20px;
+    /* background-position: center;
+    display: flex;
+    margin: 40px; */
 }
 article  .blocos p1{
     font-family: Roboto;
@@ -60,8 +65,9 @@ article  .blocos p1{
     font-size: 15px;
     line-height: 134.4%;
     letter-spacing: 0.06em;
+    margin-top: 1px;
     color: #292929;
-   display: flex;
+    display: block;
 }
 
 article .blocos p2{
@@ -80,7 +86,8 @@ article .blocos p2{
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    text-align: center;
+    /* text-align: left; */
+    /* text-align: center; */
     letter-spacing: 0.32em;
     line-height: 134.4%;
     color: #FC334F;
