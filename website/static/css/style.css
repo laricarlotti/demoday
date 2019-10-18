@@ -7,7 +7,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 6vh 38vh 35vh 35vh 100vh 30vh;
+    grid-template-rows: 6vh 38vh 35vh 170vh 100vh 35vh;
     margin: 0;
     padding: 0;
 }
@@ -19,18 +19,88 @@ body::-webkit-scrollbar{
     width: 0px;
 }
 article{
-    background-color:#E5E5E5;
-    font-family: Arial, Helvetica, sans-serif;
     grid-area: article;
+    margin: 15px;
 }
 aside{
     grid-area: aside;
     margin: 15px;
     
 }
-aside .todas{
 
+article .all .categoria h2{
+    color: #FC334F;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 20px;
+    line-height: 148.9%;
+    margin-bottom: 0;
+    letter-spacing: 0.045em;
 }
+
+article  button{
+    background-color:#ff8754;
+    color: white;
+    font-family: Roboto;
+    height: 30px;
+    left: 20px;
+    width: 140px;
+    top: 700;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    position: absolute;
+}
+article .blocos img{
+    height: 150px;
+}
+article  .blocos p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 134.4%;
+    letter-spacing: 0.06em;
+    color: #292929;
+   display: flex;
+}
+
+article .blocos p2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 0.07em;
+    line-height: 134.4%;
+    margin-top: 1px;
+    color: #292929;
+    display: flex;
+    padding: 2px;
+}
+ article .blocos p3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.32em;
+    line-height: 134.4%;
+    color: #FC334F;
+    display: flex;
+ }
+
+article .fonte {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 148.9%;
+    text-align: center;
+    letter-spacing: 0.075em;
+    color: #696969;
+    height: 0;
+}
+
+
 aside .todas .textos h3{
     color: #FC334F;
     font-family: "Axilforma-ExtraBold";
@@ -42,7 +112,7 @@ aside .todas .textos h3{
 aside .todas .textos p{
     font-family:'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 134.4%;
     letter-spacing: 0.07em;
     margin-top: 1px;
