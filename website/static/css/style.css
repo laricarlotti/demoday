@@ -7,7 +7,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 6vh 38vh 35vh 190vh 100vh 35vh;
+    grid-template-rows: 6vh 38vh 35vh 40vh 100vh 35vh;
     margin: 0;
     padding: 0;
 }
@@ -25,6 +25,7 @@ article{
 article .all{
     display: flex;
     flex-direction: column;
+    height: 100%;
     justify-content: space-between;
 }
 
@@ -35,20 +36,47 @@ article .all{
     line-height: 148.9%;
     margin-bottom: 0;
     letter-spacing: 0.045em;
+
 }
-article .all .blocos{
+article .blocos{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 170px;
-}
-.branco1, .branco2, .branco3, .branco4{
-    
-}
-.cinza1, .cinza2, .cinza3, .cinza4{
-    width: 124px;
-    height: 99px;
-} 
 
+}
+article .branco1, .branco2, .branco3, .branco4{
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(122, 122, 122, 0.12);
+    height: 65px;
+    width: 124px;
+
+}
+article .cinza1, .cinza2, .cinza3, .cinza4{
+    background: #F9F9F9;
+    border-radius: 3px;
+    height: 99px;
+    width: 124px;
+
+} 
+article .bloco1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+article .bloco1 .cinza1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    image-orientation: inherit;
+
+}
+article .bloco1 .cinza1 img{
+    height: 76px;
+    width: 75px;
+}
 article  .bloco1 .botao button{
     background-color:#ff8754;
     color: white;
