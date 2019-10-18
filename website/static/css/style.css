@@ -30,8 +30,8 @@ article .all{
 }
 
 .categoria h2{
-    color: #FC334F;
-    font-family: "Axilforma-ExtraBold";
+    color: #FF4E02;;
+    font-family: "Axilforma-Regular";
     font-size: 20px;
     line-height: 148.9%;
     margin-bottom: 0;
@@ -180,8 +180,8 @@ aside{
 
 
 aside .todas .textos h3{
-    color: #FC334F;
-    font-family: "Axilforma-ExtraBold";
+    color: #FF4E02;;
+    font-family: "Axilforma-Regular";
     font-size: 20px;
     line-height: 148.9%;
     margin-bottom: 0;
@@ -326,4 +326,9 @@ section{
     font-family: "Axilforma-ExtraBold";
     src: url(../fonts/Axilforma-ExtraBold.otf) format("truetype");
 
+}
+
+@font-face{
+    font-family: "Axilforma-Regular";
+    src:url(../fonts/Axilforma-Regular.otf) format("truetype");
 }
