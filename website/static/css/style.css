@@ -105,17 +105,24 @@ article .bloco1 .branco1, .bloco2 .branco2, .bloco3 .branco3, .bloco4 .branco4{
 
 }
 article .bloco1 .branco1 p:first-child{
-    left: 1.66%;
-    right: 76.8%;
     color: #292929;
     font-family:'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 11px;
     line-height: 134.4%;
     letter-spacing: 0.06em;
-    margin: 0;
-    
+    margin: 22px 0 2px 10px;
+
+}
+article .bloco1 .branco1 p:nth-child(2){
+    color: #292929;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+    letter-spacing: 0.035em;
+    line-height: 134.4%;
+    margin: 0 10px;
+
 }
 article .blocos img{
     height: 150px;
