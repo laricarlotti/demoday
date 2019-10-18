@@ -22,13 +22,13 @@ article{
     grid-area: article;
     margin: 15px;
 }
-aside{
-    grid-area: aside;
-    margin: 15px;
-    
+article .all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-article .all .categoria h2{
+.categoria h2{
     color: #FC334F;
     font-family: "Axilforma-ExtraBold";
     font-size: 20px;
@@ -36,6 +36,18 @@ article .all .categoria h2{
     margin-bottom: 0;
     letter-spacing: 0.045em;
 }
+article .all .blocos{
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+}
+.branco1, .branco2, .branco3, .branco4{
+    
+}
+.cinza1, .cinza2, .cinza3, .cinza4{
+    width: 124px;
+    height: 99px;
+} 
 
 article  .bloco1 .botao button{
     background-color:#ff8754;
@@ -105,6 +117,11 @@ article .fonte {
     letter-spacing: 0.075em;
     color: #696969;
     height: 0;
+}
+aside{
+    grid-area: aside;
+    margin: 15px;
+    
 }
 
 
