@@ -42,7 +42,7 @@ article .blocos{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 170px;
+    height: 172px;
     margin: 0 8px;
     width: 550px;
 
@@ -68,6 +68,7 @@ article .bloco1, .bloco2, .bloco3, .bloco4{
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: 172px;
     justify-content: space-around;
     margin: 0;
 
@@ -103,18 +104,17 @@ article .bloco1 .branco1, .bloco2 .branco2, .bloco3 .branco3, .bloco4 .branco4{
     justify-content: center;
 
 }
-article  .bloco1 .botao button{
-    background-color:#ff8754;
-    color: white;
-    font-family: Roboto;
-    height: 30px;
-    left: 20px;
-    position: absolute;
-    width: 140px;
-    top: 765px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 0.5px;
+article .bloco1 .branco1 p:first-child{
+    left: 1.66%;
+    right: 76.8%;
+    color: #292929;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 134.4%;
+    letter-spacing: 0.06em;
+    margin: 0;
     
 }
 article .blocos img{
@@ -123,17 +123,6 @@ article .blocos img{
     /* background-position: center;
     display: flex;
     margin: 40px; */
-}
-article  .blocos p1{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 134.4%;
-    letter-spacing: 0.06em;
-    margin-top: 1px;
-    color: #292929;
-    display: block;
 }
 
 article .blocos p2{
@@ -171,14 +160,13 @@ article .fonte {
     letter-spacing: 0.075em;
     color: #696969;
     height: 0;
+
 }
 aside{
     grid-area: aside;
     margin: 15px;
     
 }
-
-
 aside .todas .textos h3{
     color: #FF4E02;;
     font-family: "Axilforma-Regular";
@@ -203,13 +191,14 @@ aside .imagem_grande {
     background-repeat: no-repeat;
     background-size: contain;
     height: 180px;
-}
 
+}
 aside .imagens_pequenas{
     display: flex;
     flex-direction: column;
     height: 300px;
     margin-top: 10px;
+
 }
 aside .imagens_pequenas .imagens_cima{
     align-items: center;
@@ -220,11 +209,10 @@ aside .imagens_pequenas .imagens_cima{
     width: 100%;
     
 }
-
 .imagens_cima img{
     width: 45%;
-}
 
+}
 aside .imagens_pequenas .imagens_baixo{
     align-items: center;
     background-position: center;
@@ -232,24 +220,26 @@ aside .imagens_pequenas .imagens_baixo{
     height: 160px;
     justify-content: space-between;
     width: 100%;
-}
 
+}
 .imagens_baixo img{
     width: 45%;
-}
 
+}
 footer{
     align-items: center;
     background: #F7F7F7;
     display: flex; 
     flex-direction: row;
     grid-area: footer;
+
 }
 footer .todas{
     display: flex;
     margin: 0 20px;
     justify-content: space-between;
     width: 100%;
+
 }
 footer .todas div{
     display: flex;
@@ -257,18 +247,20 @@ footer .todas div{
     font-family:'Roboto', sans-serif;
     font-size: 12px;
     width: 100px;
+
 }
 footer .todas div a{
     color: #000000;
     font-weight: 100;
     line-height: 13pt;
     text-decoration: none;
-}
 
+}
 footer .negrito{
     background: #F7F7F7;
     font-weight: 500;
     height: 20px;
+
 }
 
 
