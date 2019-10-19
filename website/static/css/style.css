@@ -83,7 +83,8 @@ article .bloco1 .cinza1, .bloco2 .cinza2, .bloco .cinza3, .bloco4 .cinza4{
 }
 article .bloco1 .cinza1 img, .bloco2 .cinza2 img, .bloco3 .cinza3 img, .bloco4 .cinza4 img{
     height: 76px;
-    width: 75px;
+    margin-top: 0px;
+
 
 }
 article .bloco3 .cinza3{
@@ -95,7 +96,6 @@ article .bloco3 .cinza3{
 }
 article .bloco3 .cinza3 img{
     height: 76px;
-    width: 75px;
 
 }
 article .bloco1 .branco1, .bloco2 .branco2, .bloco3 .branco3, .bloco4 .branco4{
@@ -127,10 +127,8 @@ article .bloco1 .branco1 p:nth-child(2), .bloco2 .branco2 p:nth-child(2), .bloco
 article .blocos img{
     height: 150px;
     margin-top: 20px;
-    /* background-position: center;
-    display: flex;
-    margin: 40px; */
 }
+article 
 
 article .blocos p2{
     font-family:'Roboto', sans-serif;
@@ -269,9 +267,6 @@ footer .negrito{
     height: 20px;
 
 }
-
-
-
 header{
     grid-area: header;
     width: 375px;
