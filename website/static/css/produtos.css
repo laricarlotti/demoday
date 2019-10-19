@@ -1,26 +1,28 @@
 .ativacao{
     display: flex;
     flex-direction: column;
+    margin-top: 12.5%;
     margin-inline-start: 60px;
 
 }
 .ativo{
+    color: #868686;
     display: flex;
-    width: 50%;
     float: right;
-    margin-inline-end: 120px;
-    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+    margin-inline-end: 82px;
+    width: 70%;
 }
 .avaliacao{
-    width: 50%;
-    position: relative;
+    font-size: 12pt;
+    font-weight: 300;
     float: left;
     left: 20px;
-    font-weight: 200;
-}
-.avaliacao img{
-     position: relative;
-     width: 100px;
+    margin-top: 13%;
+    position: relative;
+    width: 50%;
 }
 
 body{
@@ -73,7 +75,7 @@ button{
     display: block;
     left: 90px;
     top: -1px;
-    font-family: Roboto;
+    font-family:'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     color: #3E3E3E;
@@ -99,7 +101,7 @@ h1{
     height: 21px;
     left: 19px;
     top: 370px;
-    font-family: Roboto;
+    font-family:'Roboto', sans-serif;
     font-weight: 200;
     font-size: 15px;
     color: #3E3E3E;
@@ -110,7 +112,7 @@ h2, h3{
     height: 128px;
     left: 20px;
     top: 510px;
-    font-family: Roboto;
+    font-family:'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -133,23 +135,32 @@ h5{
 }
 
 h6{
-    font-family: Roboto;
+    color: #868686;
+    font-family:'Roboto', sans-serif;
     font-size: 14px;
-    font-style: normal;
-    color: #3E3E3E;
-    margin-block-end: 0.33em;
     font-weight: 200;
+    margin-top: 0;
+    margin-block-end: 0.33em;
+}
+.negrito{
+    color: #868686;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140.5%;
+    letter-spacing: 0.03em;
+
 }
 
 input{
-    width: 40px;
     background-color: transparent;
-    height: 30px;
     border: none;
-    text-align: center;
-    font-family: Roboto;
+    font-family:'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 700;
+    height: 30px;
+    text-align: center;
+    width: 40px;
 }
 
 .imagem-principal{
@@ -177,8 +188,7 @@ p{
     height: 44px;
     left: 20px;
     top: 325px;
-    font-family: Roboto;
-    font-style: normal;
+    font-family:'Roboto', sans-serif;
     font-size: 18px;
     line-height: 148.9%;
     letter-spacing: 0.06em;
