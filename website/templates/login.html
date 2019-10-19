@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+{% load staticfiles %}
+{% block css %} href="{% static 'css/login.css' %}" {% endblock%}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/login.css'%}">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700,900&display=swap" rel="stylesheet">
+
+<div class="login">
+    <div class="texto">
+        <h1>Entre na sua conta! :)</h1>
+        <p>{{dados}}</p>
+    </div>
+     
+    <form action="/" method="POST">
+    {% csrf_token %}
+             
+        <label for="email">Email</label>
+        <input type="email" name="email" id="" required>
+
+        <label for="senha">Senha</label>
+        <input class="senha" type="password" name="senha" required>
+         
+        <input class="button" type="submit" value="Entrar">
+     
+    </form>
+
+</div>
+
+{% endblock %}
+ 

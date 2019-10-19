@@ -19,7 +19,7 @@ def cadastro(request):
 
     return render(request, 'cadastro.html') 
 
-def index(request):
+def login(request):
     if request.method == 'POST':
         formulario_email = request.POST['email']
         formulario_senha = request.POST['senha']
@@ -31,15 +31,14 @@ def index(request):
             args = {
                 'dados': user_logado
             }
-            #return render(request, 'produtos.html', args)
             return render(request, 'index.html', args)
         else:
             args = {
-                'msg': 'credenciais invalidas'
+                'msg': 'Credenciais inválidas. Tente novamente.'
             }
-            return render(request, 'index.html', args)
+            return render(request, 'login.html', args)
 
-    return render(request, 'index.html')
+    return render(request, 'login.html')
 
     
 def produtos(request):
@@ -47,5 +46,8 @@ def produtos(request):
 
 def menu(request):
     return render(request, 'menu.html')
+
+def index(request):
+    return render(request, 'index.html')
 
 
