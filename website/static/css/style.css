@@ -129,9 +129,10 @@ article .bloco1 .branco1 p:last-child, .bloco2 .branco2 p:last-child, .bloco3 .b
     font-family:'Roboto', sans-serif;
     font-weight: 900;
     font-size: 11px;
-    line-height: 148.9%;
+    line-height: 0px;
     letter-spacing: 0.32em;
-    margin: 5px 0 0 10px;
+    margin: 10px 0 0 10px;
+    width: 87.5%;
 
 }
 article .blocos img{
@@ -139,36 +140,14 @@ article .blocos img{
     margin-top: 20px;
 }
 
-article .blocos p2{
-    font-family:'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 11px;
-    letter-spacing: 0.07em;
-    line-height: 134.4%;
-    margin-top: 1px;
-    color: #292929;
-    display: flex;
-    padding: 2px;
-}
- article .blocos p3{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    letter-spacing: 0.32em;
-    line-height: 134.4%;
-    color: #FC334F;
-    display: flex;
- }
 
 article .fonte {
-    display: flex;
-    font-family: Roboto;
-    font-style: normal;
+    display:inline-block;
+    justify-content: right;
+    font-family:'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 148.9%;
-    text-align: center;
+    font-size: 8pt;
+    text-align: right;
     letter-spacing: 0.075em;
     color: #696969;
     height: 0;
@@ -311,9 +290,7 @@ header{
     height: 325px;
     background-image: url("../img/fundo_header.png");
     
-    
 }
-
 header h1{
     position: absolute;
     width: 200px;
