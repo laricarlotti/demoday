@@ -5,17 +5,25 @@
     
 
     <nav>
+        <div>
+        </div>
         <img class="logo" src="{% static 'img/logo.png' %}" alt="logo">
         <div class="busca_mobile">
             <input type="busca" name="busca" id="" placeholder="O que você está precisando?">
             <img class="lupa" src="{% static 'img/lupa.png' %}" alt="lupa">
         </div>
+        
         <div class="menu">
             <span class="traco-1"></span>
             <span class="traco-2"></span>
             <span class="traco-3"></span>
         </div>
+        
+        {% include 'menu.html' %}
+
     </nav>
+
+
     <main>
             <a href="">Hoje</a>
             <a href="">É</a>
