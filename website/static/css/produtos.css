@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 12.5%;
-    margin-inline-start: 60px;
+    margin-inline-start: 16px;
 
 }
 .ativo{
@@ -14,7 +14,8 @@
     font-weight: 100;
     margin-inline-end: 82px;
     width: 70%;
-}
+
+}    
 .avaliacao{
     font-size: 12pt;
     font-weight: 300;
@@ -70,9 +71,7 @@ button{
     border: none;
 
 }
-
 .button-perguntar{
-    
     border: 1px solid #DCDCDC;
     box-sizing: border-box;
     border-radius: 5px;
@@ -85,13 +84,12 @@ button{
     letter-spacing: 1pt;
     line-height: 148.9%;
     top: 715px;
-}
 
+}
 .dados-principais{
     position: absolute;
     display: block;
     left: 90px;
-    top: -1px;
     font-family:'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -151,12 +149,14 @@ h4{
     font-weight: 600;
     font-size: 16px;
     line-height: 140.5%;
-    letter-spacing: 1pt;;
+    letter-spacing: 1pt;
+    margin: 0;
 
 }
 h5{
     margin-block-start: -1.33em;
     font-weight: 100;
+    margin: 0;
 }
 
 h6{
@@ -241,11 +241,13 @@ p{
 
 .separador{
     left: 160px;
-    font-size: 36pt;
     color: #C4C4C4;
     width: 0;
-    position: sticky;
-    margin-top: 10px;
+    margin-top: 19%;
+    width: 45px;
+    height: 0px;
+    border: 0.5px solid #C4C4C4;
+    transform: rotate(90deg);
 }
 
 ::placeholder{
@@ -255,6 +257,8 @@ p{
     
 }
 .proprietario{
+    display: flex;
+    flex-direction: row;
     grid-area: section4;
     position: relative;
     top: 300px;
@@ -269,7 +273,12 @@ p{
 }
 
 .perfil{
-    display: inline-flex;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    height: 65px;
+    width: 100%;
 
 }
 
@@ -302,6 +311,7 @@ p{
     flex-direction: row;
     position: absolute;
     margin-top: 45px;
+    width: 95%;
 }
 
 span{
