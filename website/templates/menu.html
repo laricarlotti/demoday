@@ -3,55 +3,55 @@
 {% block content %}
 
 <link rel="stylesheet" href="{% static 'css/menu.css'%}">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
 
-<body>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
-<nav></nav>
+<body> 
+    <nav>
+    </nav>
 
-<section class="cima">
-    <img class="usuario" src="../static/img/perfil.png" alt="Foto do Perfil do Usuário">
-    <div class="superior"> 
-        <h4> Olá! Seja bem-vindo </h4>
-        <h5> Entre na sua conta ou crie uma </h5>
+    <section class="cima">
+        <img class="usuario" src="../static/img/perfil.png" alt="Foto do Perfil do Usuário">
+        <div class="superior"> 
+            <h4> Olá! Seja bem-vindo </h4>
+            <h5> Entre na sua conta ou crie uma </h5>
+        </div>
+        <div class="botao">
+            <input class= botao1 type="button" value="Entre">
+            <input class= botao2 type="button" value="Crie a Sua Conta">
+        </div>
+        <img class= "linha" src="../static/img/line.png" alt="linha divisoria">
+    </section>
+
+    <section class="icones">
+
+    <section class="cat-geral">
+    
+        <div class="categorias">
+            <img src="../static/img/vector.png" alt="icone"> 
+            <p> Categorias </p>
+        </div>
+
+        <div class="categorias">
+            <img class="vetores" src="../static/img/vector1.png" alt="icone1">
+            <p> Quero alugar </p>
+        </div>
+
+        <div class="categorias">
+            <img class="vetores" src="../static/img/vector2.png" alt="icone2">
+            <p> Quem Somos </p>
+        </div>
+
+        <div class="categorias">
+            <img class="vetores" src="../static/img/vector3.png" alt="icone3">
+            <p> Dúvidas Frequentes </p>    
+        </div>
+
+    </section>
+    <div>
+        <img class= "linha2" src="../static/img/line.png" alt="linha divisoria">
     </div>
-    <div class="botao">
-        <input class= botao1 type="button" value="Entre">
-        <input class= botao2 type="button" value="Crie a Sua Conta">
-    </div>
-    <img class= "linha" src="../static/img/line.png" alt="linha divisoria">
-</section>
-
-<section class="icones">
-
-<section class="cat-geral">
-<div class="categorias">
-    <img src="../static/img/vector.png" alt="icone"> 
-    <p> Categorias </p>
-</div>
-
-<div class="categorias">
-    <img class="vetores" src="../static/img/vector1.png" alt="icone1">
-    <p> Quero alugar </p>
-</div>
-
-<div class="categorias">
-    <img class="vetores" src="../static/img/vector2.png" alt="icone2">
-    <p> Quem Somos </p>
-</div>
-
-<div class="categorias">
-    <img class="vetores" src="../static/img/vector3.png" alt="icone3">
-    <p> Dúvidas Frequentes </p>    
-</div>
-
-</section>
-
-<div>
-    <img class= "linha2" src="../static/img/line.png" alt="linha divisoria">
-</div>
-
+    
 </body>
-</html>
 
 {% endblock %}
