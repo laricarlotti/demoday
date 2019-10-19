@@ -1,0 +1,19 @@
+<nav>
+        <h1>Teste</h1>
+         <p>{{dados}}</p>
+ 
+         <form action="/" method="POST">
+             {% csrf_token %}
+         
+             <label for="email">Email</label>
+             <input type="email" name="email" id="" required>
+     
+             <label for="senha">Senha</label>
+             <input type="text" name="senha" required>
+     
+             <input type="submit" value="Entrar">
+ 
+         </form>
+ 
+     </nav>
+ 
