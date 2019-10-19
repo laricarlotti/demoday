@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Precisei</title>
-    <link rel="stylesheet" href="{% static 'css/menu.css' %}">
-    <script defer src="{% static 'js/script.js' %}"></script>
-</head>
+
+{% load staticfiles %}
+{% block css %} href="{% static 'css/menu.css' %}" {% endblock%}
+{% block content %}
+
 
 <body>
         <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
@@ -15,7 +10,7 @@
 <nav></nav>
 
 <section class="cima">
-    <img class="usuario" src="img/perfil.png" alt="Foto do Perfil do Usuário">
+    <img class="usuario" src="../static/img/perfil.png" alt="Foto do Perfil do Usuário">
     <div class="superior"> 
         <h4>Bem-Vindo</h4>
         <h5>Entre na sua conta ou crie uma </h5>
@@ -24,37 +19,39 @@
         <input class= botao1 type="button" value="Entre">
         <input class= botao2 type="button" value="Crie a Sua Conta">
     </div>
-    <img class= "linha" src="img/line.png" alt="linha divisoria">
+    <img class= "linha" src="../static/img/line.png" alt="linha divisoria">
 </section>
 
 <section class="icones">
 
 <section class="cat-geral">
 <div class="categorias">
-    <img src="img/vector.png" alt="icone"> 
+    <img src="../static/img/vector.png" alt="icone"> 
     <p>Categoria</p>
 </div>
 
 <div class="categorias">
-    <img class="vetores" src="img/vector1.png" alt="icone1">
+    <img class="vetores" src="../static/img/vector1.png" alt="icone1">
     <p>Alugue</p>
 </div>
 
 <div class="categorias">
-    <img class="vetores" src="img/vector2.png" alt="icone2">
+    <img class="vetores" src="../static/img/vector2.png" alt="icone2">
     <p>Quem Somos</p>
 </div>
 
 <div class="categorias">
-    <img class="vetores" src="img/vector3.png" alt="icone3">
+    <img class="vetores" src="../static/img/vector3.png" alt="icone3">
     <p>Duvidas Frequentes</p>    
 </div>
 
 </section>
 
 <div>
-    <img class= "linha2" src="img/line.png" alt="linha divisoria">
+    <img class= "linha2" src="../static/img/line.png" alt="linha divisoria">
 </div>
 
 </body>
 </html>
+
+{% endblock %}
