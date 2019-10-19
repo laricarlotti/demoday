@@ -127,3 +127,29 @@ h4{
 .linha{
     margin-top: 100px;
 }
+
+.icones{
+    position: relative;
+    top: 115px;
+}
+
+p{
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    margin-inline-start: 38px;
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+}
+
+h5{
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+.linha2{
+    margin-top: 20px;
+}
