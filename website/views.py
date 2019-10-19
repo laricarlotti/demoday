@@ -45,4 +45,7 @@ def index(request):
 def produtos(request):
     return render(request, 'produtos.html')
 
+def menu(request):
+    return render(request, 'menu.html')
+
 
