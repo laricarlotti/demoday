@@ -110,3 +110,20 @@ h4{
     border-radius: 5px;
 } 
 
+.superior{
+    position: relative;
+    left: 120px;
+    top:25px;
+}
+
+.cat-geral{
+    margin-top: -110px;
+}
+
+.cima{
+    position: relative;
+    bottom: 10px;
+}
+.linha{
+    margin-top: 100px;
+}
