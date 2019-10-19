@@ -96,3 +96,17 @@ h4{
     letter-spacing: 0.065em;
     text-indent: 56px;
 } 
+
+.botao2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;  
+    background-color:white;
+    color:#8EC0EF;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-radius: 5px;
+} 
+
