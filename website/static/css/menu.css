@@ -15,3 +15,17 @@
     margin-left: 22px;
     
 }
+
+nav{
+    height:30px;
+    /* background-color: aqua; */
+}
+
+.usuario{
+position: absolute;
+top: 6px;
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+width: 81.53px;
+height: 81.53px;
+left: 20px;
+}
