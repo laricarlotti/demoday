@@ -58,15 +58,32 @@ button{
 }
 
 .button-reservar{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1pt;
+    line-height: 148.9%;
     top: 650px;
     background-color: #ff8754;
     color: white;
+    border: none;
 
 }
 
 .button-perguntar{
+    
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 5px;
     background-color: white;
     color:#ff8754;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1pt;
+    line-height: 148.9%;
     top: 715px;
 }
 
@@ -118,8 +135,8 @@ h2, h3{
     font-size: 16px;
     color: #3E3E3E;
     letter-spacing: 0.06em;
-}
 
+}
 h3{
     top: 540px;
     font-size: 14px;
@@ -128,7 +145,15 @@ h3{
     right: 40px;
 
 }
+h4{
+    color: #585858;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140.5%;
+    letter-spacing: 1pt;;
 
+}
 h5{
     margin-block-start: -1.33em;
     font-weight: 100;
@@ -217,7 +242,7 @@ p{
 .separador{
     left: 160px;
     font-size: 36pt;
-    color: #a2a2a2;
+    color: #C4C4C4;
     width: 0;
     position: sticky;
     margin-top: 10px;

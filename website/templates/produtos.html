@@ -1,8 +1,11 @@
 {% extends "main.html" %}
 {% load staticfiles %}
+{% extends "index.html" %}
 {% block css %} href="{% static 'css/produtos.css' %}" {% endblock%}
 {% block js %} src="{% static 'js/produtos.js' %}" {% endblock%}
 {% block content %}
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700,900&display=swap" rel="stylesheet">
 
 <body>
     
@@ -56,10 +59,7 @@
         </section>
     
         <section class="relacionados">
-    
         </section>
     </div>
 </body>
-
-{% endblock %}
 
