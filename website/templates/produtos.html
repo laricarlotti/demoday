@@ -1,11 +1,8 @@
 {% extends "main.html" %}
 {% load staticfiles %}
-{% extends "index.html" %}
 {% block css %} href="{% static 'css/produtos.css' %}" {% endblock%}
 {% block js %} src="{% static 'js/produtos.js' %}" {% endblock%}
 {% block content %}
-
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700,900&display=swap" rel="stylesheet">
 
 <body>
     
@@ -51,15 +48,18 @@
                 <p class="separador">|</p>
             </div>
                 <div class="ativacao">
-                    <h6 class="ativo"> Ativo desde </h6>
-                    <h6 class="data-entrada"><span class="negrito"> 27 de junho de 2019 </span> </h6>
+                    <h6 class="ativo">ativo desde</h6>
+                    <h6 class="data-entrada"> 27 de Junho de 2019</h6>
                 </div>
             </div>
             
         </section>
     
         <section class="relacionados">
+    
         </section>
     </div>
 </body>
+
+{% endblock %}
 
