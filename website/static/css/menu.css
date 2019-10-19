@@ -62,3 +62,23 @@ h4{
     font-weight: bold;
 
 }
+
+/* Crie a sua conta */
+.botao2{ 
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    left: 198px;
+    top: 114px;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-color: #8EC0EF;
+    color: #8EC0EF;
+    background-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    text-indent: 24px;
+    font-weight: bold;
+    /* or 19px */
+}
