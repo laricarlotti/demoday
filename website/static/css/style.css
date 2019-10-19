@@ -7,7 +7,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 9vh 38vh 35vh 40vh 90vh 35vh;
+    grid-template-rows: 9vh 38vh 35vh 40vh 90vh 33vh;
     margin: 0;
     padding: 0;
 }
@@ -131,7 +131,7 @@ article .bloco1 .branco1 p:last-child, .bloco2 .branco2 p:last-child, .bloco3 .b
     font-size: 11px;
     line-height: 0px;
     letter-spacing: 0.32em;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 5px 10px;
     width: 87.5%;
 
 }
@@ -194,11 +194,16 @@ aside .todas .textos .dropdown-menu p{
     width: 77px;
 
 }
-aside .todas .textos .dropdown-menu svg{
+.triangle{
     height: 15px;
-    transform: rotate(-180deg);
+    transform: rotate(90deg);
+    transition: all 1s;
     width: 10px;
 }
+.triangle-down {
+    transform:rotate(180deg);
+}
+
 aside .imagem_grande {
     background-position: center;
     background-image: url('../img/flamingo.png');
@@ -260,7 +265,7 @@ footer .todas div{
     display: flex;
     flex-direction: column;
     font-family:'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 9pt;
     width: 100px;
 
 }
@@ -281,7 +286,7 @@ footer .negrito{
     background: #F7F7F7;
     font-size: 10pt;
     font-weight: 500;
-    height: 25px;
+    height: 20px;
 
 }
 header{

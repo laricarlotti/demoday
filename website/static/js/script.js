@@ -4,6 +4,7 @@ let input = document.querySelector("input");
 let botao = document.querySelector("button");
 let h2 = document.querySelector("h2");
 
+
 function mostrarMenu(){
   
     main.classList.toggle("visivel");
@@ -16,6 +17,13 @@ function mostrarMenu(){
 
 
 menuHamburguer.onclick = mostrarMenu;
+
+let triangle = document.querySelector('.triangle');
+
+    triangle.addEventListener('click', function(){
+    triangle.classList.toggle('triangle-down')
+});
+
 
 
 
