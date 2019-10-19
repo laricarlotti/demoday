@@ -179,7 +179,7 @@ aside .todas .textos .dropdown-menu{
     height: 100px;
     flex-direction: row;
     justify-content: space-between;
-    width: 28%;
+    width: 27.5%;
 
 }
 aside .todas .textos .dropdown-menu p{
@@ -209,7 +209,8 @@ aside .imagem_grande {
     background-image: url('../img/flamingo.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 180px;
+    height: 187px;
+    width: 100%;
 
 }
 aside .imagens_pequenas{
@@ -225,6 +226,7 @@ aside .imagens_pequenas .imagens_cima{
     display: flex;
     height: 160px;
     justify-content: space-between;
+    margin-top: 10px;
     width: 100%;
     
 }
@@ -252,6 +254,7 @@ footer{
     display: flex; 
     flex-direction: row;
     grid-area: footer;
+    width: 100%;
 
 }
 footer .todas{
@@ -265,13 +268,13 @@ footer .todas div{
     display: flex;
     flex-direction: column;
     font-family:'Roboto', sans-serif;
-    font-size: 9pt;
+    font-size: 8.5pt;
     width: 100px;
 
 }
 footer .todas div a{
-    color: #000000;
-    font-weight: 100;
+    color: #292929;
+    font-weight: 300;
     line-height: 13pt;
     text-decoration: none;
 
@@ -286,7 +289,7 @@ footer .negrito{
     background: #F7F7F7;
     font-size: 10pt;
     font-weight: 500;
-    height: 20px;
+    height: 22px;
 
 }
 header{
