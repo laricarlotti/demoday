@@ -13,12 +13,27 @@
     font-family: "Axilforma-ExtraBold";
     font-size: 22px;
     height: 31px;
-    left: 100px;
+    left: 90px;
     letter-spacing: 0.045em;
     line-height: 148.9%;
     position: absolute;
-    top: 114px;
+    top: 80px;
     width: 224px;
+    
+}
+a{
+    text-decoration: none
+}
+
+h2{
+    color: #FF002E;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 14px;
+    line-height: 148.9%;
+    letter-spacing: 0.12em;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
 
 }
 .cadastro form:nth-child(3){
@@ -48,7 +63,7 @@ label[for=nome]{
     letter-spacing: 0.005em;
     line-height: 148.9%;
     position: absolute;
-    top: 210px;
+    top: 200px;
     width: 224px;
 
 }
@@ -58,7 +73,7 @@ input[type=text] {
     height: 50px;
     left: 20px;
     position: absolute;
-    top: 257px;
+    top: 245px;
     width: 336px;
 
 }
@@ -72,7 +87,7 @@ form [for=email]{
     letter-spacing: 0.005em;
     line-height: 148.9%;
     position: absolute;
-    top: 333px;
+    top: 320px;
     width: 224px;
     
 }
@@ -82,7 +97,7 @@ input[type=email] {
     height: 53px;
     left: 20px;
     position: absolute;
-    top: 379px;
+    top: 365px;
     width: 336px;
 
 }
@@ -96,7 +111,7 @@ form [for=senha]{
     line-height: 148.9%;
     font-family: "Axilforma-Regular";
     position: absolute;
-    top: 457px;
+    top: 445px;
     width: 224px;
 
 }
@@ -106,7 +121,7 @@ form .senha{
     height: 53px;
     left: 20px;
     position: absolute;
-    top: 503px;
+    top: 490px;
     width: 336px;
 
 }
@@ -133,7 +148,7 @@ input[type=submit]{
     width: 324px;
     height: 58px;
     left: 25px;
-    top: 650px;
+    top: 660px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 14px;
