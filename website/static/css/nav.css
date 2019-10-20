@@ -32,7 +32,7 @@ color: rgba(105, 105, 105, 0.75);
 }
 
 main{
-    background-color: #fdfcfc;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around; 
     transform: translateY(-130%);
@@ -147,10 +147,10 @@ span{
 h4{
     left: 91px;
     top: 45px;  
-    font-size: 16px;
+    font-size: 14px;
     line-height: 148.9%;
     letter-spacing: 0.025em; 
-    font-family: Roboto;
+    font-family: "Axilforma-Regular";
     font-weight: bold;
     color: black;
     width: 224px;
@@ -163,12 +163,13 @@ h4{
 
 h5{
     font-weight: 300;
-    font-family: Roboto;
+    font-family: "Axilforma-Regular";
     display: flex;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-block-start: 1rem;
     margin-block-end: 0.67em;
     margin-inline-end: 25px;
+    color: rgb(128, 128, 128);
 }
 
 /* botao_entre */
@@ -180,7 +181,7 @@ h5{
     top: 114px;
     background-color: #8EC0EF;
     border-width: 0;
-    font-family: Roboto;
+    font-family: "Axilforma-Regular";
     font-weight: bold;
     display: flex;
     text-align: center;
@@ -189,7 +190,7 @@ h5{
     font-size: 13px;
     line-height: 148.9%;
     border-radius: 5px;
-    text-indent: 45px;
+    text-indent: 42px;
 
 }
 
@@ -200,7 +201,7 @@ h5{
     height: 36px;
     left: 170px;
     top: 114px;
-    font-family: Roboto;
+    font-family: "Axilforma-Regular";
     font-size: 13px;
     line-height: 148.9%;
     border-color: #8EC0EF;
@@ -220,16 +221,18 @@ h5{
     letter-spacing: 0.065em;  
     background-color:white;
     color:#8EC0EF;
-    font-family: Roboto;
+    font-family: ;
     font-size: 13px;
     line-height: 148.9%;
     border-radius: 5px;
 } 
 
-.categorias p{
+.nome-categorias{
+    font-family: "Axilforma-Regular";
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 15px;
+    font-size: 0.8rem;
 
 }
 
@@ -258,7 +261,7 @@ h5{
 }
 
 p{
-    font-family: Roboto;
+    font-family: "Axilforma-Regular";
     font-weight: bold;
     color: black;
     display: flex;
@@ -272,3 +275,7 @@ p{
     opacity: 0;
 
 }
+
+@font-face{
+    font-family: "Axilforma-Regular";
+    src:url(../fonts/Axilforma-Regular.otf) format("truetype");
