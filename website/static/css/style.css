@@ -43,7 +43,7 @@ article .all{
     line-height: 148.9%;
     margin-bottom: 0;
     letter-spacing: 0.045em;
-    margin: 35px 0px 18px 11px;
+    margin: 35px 0px 18px 9px;
 
 }
 article .blocos{
@@ -286,11 +286,23 @@ footer .todas div a{
     text-decoration: none;
 
 }
-/* hover não funciona
-footer div a:hover{
-    cursor: pointer;
-} */
 
+ .utilidades a:hover{
+    
+    font-weight: 900;
+    
+} 
+
+
+.conta a:hover{
+    
+    font-weight: 900;
+    
+} 
+.categorias a:hover{
+    font-weight: 900;
+    
+} 
 
 footer .negrito{
     background: #F7F7F7;
