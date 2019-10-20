@@ -2,12 +2,11 @@
     display: grid;
     grid-template-areas: 'nav nav'
                          'header header'
-                         'section section'
                          'article article'
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 9vh 54vh 35vh 40vh 90vh 33vh;
+    grid-template-rows: 9vh 80vh 40vh 90vh 33vh;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -297,7 +296,8 @@ header{
     grid-area: header;
     width: 375px;
     height: 325px;
-    background-image: url("../img/fundo_header2.png");
+    background-image: url("../img/background-header.png");
+    background-size: cover;
     
 }
 header h1{
@@ -306,15 +306,11 @@ header h1{
     height: 60px;
     left: 20px;
     top: 96px;
-
-    font-family: Axiforma;
-    font-style: normal;
+    font-family: "Axilforma-ExtraBold";
     font-weight: 800;
     font-size: 22px;
     line-height: 148.9%;
-
     letter-spacing: 0.045em;
-
     color: #FC334F;
 }
 header h2{
@@ -323,15 +319,11 @@ header h2{
     height: 53px;
     left: 20px;
     top: 179px;
-
-    font-family: Axiforma;
-    font-style: normal;
-    font-weight: 300;
+    font-family: "Axilforma-Light";
+    font-weight: 100;
     font-size: 11px;
     line-height: 148.9%;
-
     letter-spacing: 0.045em;
-
     color: #3E3E3E;
 }
 
@@ -348,6 +340,7 @@ section{
     top: 270px;
     background-image: url("../img/Carrossel.png");
     
+}
 
 @font-face{
     font-family: "Axilforma-ExtraBold";
@@ -358,4 +351,9 @@ section{
 @font-face{
     font-family: "Axilforma-Regular";
     src:url(../fonts/Axilforma-Regular.otf) format("truetype");
+}
+
+@font-face{
+    font-family: "Axilforma-Light";
+    src:url(../fonts/Axilforma-Light.otf) format("truetype");
 }
