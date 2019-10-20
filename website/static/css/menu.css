@@ -1,5 +1,6 @@
 body{
-    background-color: green;
+    background-color: rgb(255, 255, 255);
+    z-index: 2000;
 }
 
 .categorias{
@@ -120,7 +121,6 @@ h4{
 }
 
 .cat-geral{
-    margin-top: -110px;
 }
 
 .cima{
@@ -132,8 +132,8 @@ h4{
 }
 
 .icones{
-    position: relative;
-    top: 115px;
+    position: absolute;
+    top: 215px;
 }
 
 p{
@@ -152,3 +152,4 @@ h5{
 .linha2{
     margin-top: 20px;
 }
+
