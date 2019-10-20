@@ -11,12 +11,13 @@ function mostrarMenu(){
     menuHamburguer.classList.toggle("ativo");
 }
 
-
+menuHamburguer.onclick = mostrarMenu;
 
 //funcao que recebe o próprio evento de pressionar teclas e verifica se a tecla do evento é o Enter, se for enter ele chama a funcao de pegar nome
 
 
-menuHamburguer.onclick = mostrarMenu;
+// FAZER TRIÂNGULO DO ASIDE DESCER //
+
 
 let triangle = document.querySelector('.triangle');
 
