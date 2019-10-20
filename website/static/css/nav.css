@@ -52,6 +52,7 @@ nav{
     justify-content: space-between;
     height: 45px;
     left: 0px;
+    background-color: violet;
 
 }
 
@@ -71,8 +72,6 @@ nav{
     margin-right: 15px;
     width: 19px;
     align-items: flex-end;
-    
-
 }
 
 span{

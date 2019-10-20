@@ -1,25 +1,28 @@
 {% extends "main.html" %}
 {% load staticfiles %}
-{% block css %} href="{% static 'css/nav.css' %}" {% endblock%}
+{% block css %} href="{% static 'css/nav.css' %}"
+{% endblock%}
 {% block content %}
     
     <nav>
-        <div>
-        </div>
+        <section>
+            {% include 'menu.html' %}
+        </section>
+        
         <img class="logo" src="{% static 'img/logo.png' %}" alt="logo">
         <div class="busca_mobile">
             <input type="busca" name="busca" id="" placeholder="O que você está precisando?">
             <img class="lupa" src="{% static 'img/lupa.png' %}" alt="lupa">
         </div>
+        <div>
+        </div>
         
-        <div class="menu-hamburguer">
+        <div class="menu">
             <span class="traco-1"></span>
             <span class="traco-2"></span>
             <span class="traco-3"></span>
         </div>
         
-        
-
     </nav>
 
 
@@ -27,7 +30,8 @@
             <a href="">Hoje</a>
             <a href="">É</a>
             <a href="">Sexta feira</a>
-    </main>
-         
+    </main>        
 
 {% endblock %}
+
+
