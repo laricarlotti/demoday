@@ -105,3 +105,168 @@ span{
 .visivel{
     transform: translateY(-100%);
 }
+
+
+/* Styles do Menu  */
+
+.boas-vindas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.vetores{
+    height: 20px;
+}
+
+.categorias img{
+    height: 15px;
+    margin-left: 42px;
+    
+}
+
+.usuario{
+    position: absolute;
+    top: 15px;
+    width: 63px;
+    height: 63px;
+    left: 20px;
+    border-radius: 50%;
+    align-items: left;
+}
+
+h4{
+    left: 91px;
+    top: 45px;  
+    font-size: 16px;
+    line-height: 148.9%;
+    letter-spacing: 0.025em; 
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    width: 224px;
+    height: 6px;
+    display: flex;
+    margin-block-start: 1.33em;
+    margin-block-end: 0.33em;
+
+}
+
+h5{
+    font-weight: 300;
+    font-family: Roboto;
+    display: flex;
+    font-size: 0.9rem;
+    margin-block-start: 1rem;
+    margin-block-end: 0.67em;
+    margin-inline-end: 25px;
+}
+
+/* botao_entre */
+.botao1{
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    left: 21px;
+    top: 114px;
+    background-color: #8EC0EF;
+    border-width: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.065em;     
+    color: white;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-radius: 5px;
+    text-indent: 56px;
+
+}
+
+/* Crie a sua conta */
+.botao2{ 
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    left: 170px;
+    top: 114px;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-color: #8EC0EF;
+    color: #8EC0EF;
+    background-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    text-indent: 24px;
+    font-weight: bold;  
+}
+
+
+.botao2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;  
+    background-color:white;
+    color:#8EC0EF;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-radius: 5px;
+} 
+
+.categorias p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 15px;
+
+}
+
+.superior{
+    
+    left: 120px;
+    top:25px;
+    align-content: center;
+    display: flex;
+}
+
+.cat-geral{
+}
+
+.cima{
+    width: 330px;
+}
+
+.linha{
+    margin-top: 100px;
+}
+
+.icones{
+    position: absolute;
+    top: 215px;
+}
+
+p{
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    margin-left: 30px;
+}
+
+
+
+.linha2{
+    margin-top: 20px;
+    opacity: 0;
+
+}

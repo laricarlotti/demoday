@@ -4,6 +4,8 @@
 href="{% static 'css/menu.css' %}"
 {% endblock%}
 {% block content %}
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700,900&display=swap" rel="stylesheet">
     
     <nav>
     
@@ -28,12 +30,49 @@ href="{% static 'css/menu.css' %}"
     {% endblock %} -->
         
 
-    <!-- <main>
-        <div>
-            ONDE O PERFIL SERÁ MONTADO
+    <main> 
+        <articles class="cima">
+            <div class="superior">
+                <img class="usuario" src="../static/img/perfil-menina.png" alt="Foto do Perfil do Usuário">
+                <div class="boas-vindas">
+                    <h4> Olá! Seja bem-vindo :)</h4>
+                    <h5> Entre na sua conta ou crie uma: </h5>
+                </div>
             </div>
-        </div>
-    </main>         -->
+            <div class="botao">
+                <input class=botao1 type="button" value="Entrar">
+                <input class=botao2 type="button" value="Criar Conta">
+                </div>
+                <img class="linha" src="../static/img/line.png" alt="linha divisoria">
+            </articles>
+
+            <articles class="icones">
+
+                    <articles class="cat-geral">
+                    
+                        <div class="categorias">
+                            <img src="../static/img/vector.png" alt="icone"> 
+                            <p> Categorias </p>
+                        </div>
+                
+                        <div class="categorias">
+                            <img class="vetores" src="../static/img/vector1.png" alt="icone1">
+                            <p> Quero alugar </p>
+                        </div>
+                
+                        <div class="categorias">
+                            <img class="vetores" src="../static/img/vector2.png" alt="icone2">
+                            <p> Quem Somos </p>
+                        </div>
+                
+                        <div class="categorias">
+                            <img class="vetores" src="../static/img/vector3.png" alt="icone3">
+                            <p> Dúvidas Frequentes </p>    
+                        </div>
+                
+                    </articles>
+                    <img class= "linha2" src="../static/img/line.png" alt="linha divisoria">
+    </main>        
 
 {% endblock %}
 
