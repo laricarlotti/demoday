@@ -292,8 +292,13 @@ footer .todas div a{
     font-weight: 900;
     
 } 
-
-
+ a:-webkit-any-link {
+   
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: none;
+    
+}
 .conta a:hover{
     
     font-weight: 900;
