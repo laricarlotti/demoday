@@ -1,3 +1,6 @@
+body{
+  margin:  0px ;
+}
 .cadastro{
     align-items: center;
     display: flex;
@@ -17,7 +20,7 @@
     letter-spacing: 0.045em;
     line-height: 148.9%;
     position: absolute;
-    top: 80px;
+    top: 100px;
     width: 224px;
     
 }
