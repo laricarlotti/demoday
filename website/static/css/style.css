@@ -6,7 +6,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 5vh 60vh 40vh 68vh 33vh;
+    grid-template-rows: 9vh 60vh 32vh 68vh 33vh;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -21,12 +21,12 @@ body::-webkit-scrollbar{
 
 article{
     grid-area: article;
-    margin: 0px 0px 0px 15px;
+    margin: 10px 0px 0px 15px;
 }
 article .all{
     display: flex;
     flex-direction: column;
-    height: 54%;
+    height: 75%;
     justify-content: space-between;
     margin: 0 8px;
    
@@ -37,13 +37,13 @@ article .all{
 }
 
 .categoria h2{
-    color: #FF4E02;;
+    color: #FF4E02;
     font-family: "Axilforma-Regular";
     font-size: 20px;
     line-height: 148.9%;
     margin-bottom: 0;
     letter-spacing: 0.045em;
-    margin: 35px 0px 13px 11px;
+    margin: 35px 0px 18px 11px;
 
 }
 article .blocos{
