@@ -32,13 +32,17 @@ color: rgba(105, 105, 105, 0.75);
 }
 
 main{
-    background-color: black;
+    background-color: rgb(109, 12, 12);
     display: flex;
     justify-content: space-around; 
-    transform: translateY(-100%);
+    transform: translateY(100%);
     transition: .8s ease-out;
     position: relative;
+    height: 400px;
+    margin-block-start: 120px;
+    width: 330px;
     z-index: 500;
+    left: 45px;
 }
 main a{
     text-decoration: none;
@@ -99,6 +103,5 @@ span{
 }
 
 .visivel{
-    transform: translateY(0);
+    transform: translateY(-100%);
 }
-
