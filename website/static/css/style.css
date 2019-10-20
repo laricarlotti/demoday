@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 'nav nav'
                          'header header'
-                     
+                         'section section'
                          'article article'
                          'aside aside'
                          'footer footer ';
