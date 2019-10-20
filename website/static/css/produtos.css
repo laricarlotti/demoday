@@ -270,6 +270,7 @@ p{
 
 .nav{
     grid-area: nav;
+    background-color: teal;
 }
 
 .perfil{
