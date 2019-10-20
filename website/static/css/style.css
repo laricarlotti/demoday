@@ -18,22 +18,22 @@ nav{
 body::-webkit-scrollbar{
     width: 0px;
 }
+
 article{
     grid-area: article;
-    margin: 15px;
+    margin: 0px 0px 0px 15px;
 }
 article .all{
     display: flex;
     flex-direction: column;
-    height: 75%;
+    height: 54%;
     justify-content: space-between;
     margin: 0 8px;
    
-        /* will-change: transform; */
-  
-        overflow-x: auto;
-        overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
+     overflow-x: auto;
+     overflow-y: hidden;
+     -webkit-overflow-scrolling: touch;
+   
 }
 
 .categoria h2{
@@ -43,6 +43,7 @@ article .all{
     line-height: 148.9%;
     margin-bottom: 0;
     letter-spacing: 0.045em;
+    margin: 35px 0px 13px 11px;
 
 }
 article .blocos{
