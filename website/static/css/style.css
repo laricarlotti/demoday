@@ -318,18 +318,13 @@ header h2{
     width: 191px;
     height: 53px;
     left: 20px;
-    top: 179px;
+    top: 174px;
     font-family: "Axilforma-Light";
     font-weight: 100;
     font-size: 11px;
     line-height: 148.9%;
     letter-spacing: 0.045em;
     color: #3E3E3E;
-}
-
-section{
-    grid-area: section;
-
 }
 
 .carrossel{
@@ -341,18 +336,56 @@ section{
     background-image: url("../img/Carrossel.png");
     
 }
+header .carrossel .bloco-esquerda{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 172px;
+    left: -53px;
+    position: absolute;
+    top: 83px;
+    width: 133px;
 
+}
+header .carrossel .bloco-centro{
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 10px 13px 40px rgba(0, 0, 0, 0.1);
+    height: 199px;
+    left: 117px;
+    position: absolute;
+    top: 29px;
+    width: 151px;
+
+}
+header .carrossel .kit-laranja{
+    position: absolute;
+    width: 123px;
+    height: 162px;
+    left: 131px;
+    top: 238px;
+    background: url(../img/batedeira-laranja.png);
+    background-blend-mode: multiply;
+
+}
+header .carrossel .bloco-direita{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 172px;
+    left: 305px;
+    position: absolute;
+    top: 83px;
+    width: 133px;
+}
 @font-face{
     font-family: "Axilforma-ExtraBold";
     src: url(../fonts/Axilforma-ExtraBold.otf) format("truetype");
-
 }
-
 @font-face{
     font-family: "Axilforma-Regular";
     src:url(../fonts/Axilforma-Regular.otf) format("truetype");
 }
-
 @font-face{
     font-family: "Axilforma-Light";
     src:url(../fonts/Axilforma-Light.otf) format("truetype");
