@@ -333,7 +333,7 @@ header h2{
     height: 255px;
     background-repeat: no-repeat;
     top: 285px;
-    background-image: url("../img/Carrossel.png");
+
     
 }
 header .carrossel .bloco-esquerda{
@@ -345,8 +345,14 @@ header .carrossel .bloco-esquerda{
     position: absolute;
     top: 83px;
     width: 133px;
+    background-image: url("../img/wap.png");
+    background-repeat: no-repeat;
 
 }
+
+
+
+
 header .carrossel .bloco-centro{
     background: #FFFFFF;
     border-radius: 10px;
@@ -358,7 +364,18 @@ header .carrossel .bloco-centro{
     width: 151px;
 
 }
-
+header .carrossel .bloco-direita{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 172px;
+    left: 305px;
+    position: absolute;
+    top: 83px;
+    width: 133px;
+    background-image: url("../img/aspirador-carrossel.png");
+    background-repeat:no-repeat ;
+}
 header .infos{
     position: absolute;
     width: 135.45px;
@@ -417,16 +434,7 @@ header .carrossel .kit-laranja{
  
 
 }
-header .carrossel .bloco-direita{
-    background: #FFFFFF;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
-    height: 172px;
-    left: 305px;
-    position: absolute;
-    top: 83px;
-    width: 133px;
-}
+
 @font-face{
     font-family: "Axilforma-ExtraBold";
     src: url(../fonts/Axilforma-ExtraBold.otf) format("truetype");
