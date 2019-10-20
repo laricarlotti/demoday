@@ -32,17 +32,18 @@ color: rgba(105, 105, 105, 0.75);
 }
 
 main{
-    background-color: rgb(109, 12, 12);
+    background-color: #fdfcfc;
     display: flex;
     justify-content: space-around; 
-    transform: translateY(100%);
+    transform: translateY(-130%);
     transition: .8s ease-out;
-    position: relative;
+    position: absolute;
     height: 400px;
-    margin-block-start: 120px;
+    margin-block-start: 25px;
     width: 330px;
     z-index: 500;
     left: 45px;
+    border-radius: 13px;
 }
 main a{
     text-decoration: none;
@@ -56,7 +57,8 @@ nav{
     justify-content: space-between;
     
     left: 0px;
-    background-color: rgb(255, 255, 255, 0.25);
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
 
 }
 
@@ -103,7 +105,7 @@ span{
 }
 
 .visivel{
-    transform: translateY(-100%);
+    transform: translateY(5%);
 }
 
 
@@ -187,7 +189,7 @@ h5{
     font-size: 13px;
     line-height: 148.9%;
     border-radius: 5px;
-    text-indent: 56px;
+    text-indent: 45px;
 
 }
 
