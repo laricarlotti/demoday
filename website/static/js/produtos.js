@@ -1,17 +1,23 @@
 
 // FUNÇÃO FUNCIONANDO PORÉM IMAGENS NÃO APARECEM
 
-// let i = 0;
-// let images = [];
-// let time = 3000;
+let i = 0;
+let images = [];
+let time = 3000;
 
 
-// images[0] = (".batedeira-amarela");
-// images[1] = ('.imagem-principal');
-// images[2] = ('.batedeira-vermelha');
+images[0] = document.src= '../static/img/piscina.png';
+images[1] = document.src = '../static/img/batedeira-vermelha.png';
+images[2] = document.src ='../static/img/batedeira-laranja.png';
 
 
-// function changeImg(){
+// function TrocarImg(){
+//     document.slide.src = images;
+
+// }
+
+
+// function changeImg(){   FUNCAO OFICIAL 
 //     document.slide.src = images[i];
 
 
@@ -20,17 +26,25 @@
 //     }   else{
 //         i = 0;
 //     }
-//     setTimeout("changeImg()", time);
 // }
 
 // window.onload = changeImg;
 
+// onclick = changeImg; --- onclick foi chamado direto na ancora do html
 
 
 
 
-let botaoMais = document.getElementById('#mais')
-let botaoMenos = document.getElementById('#menos')
+
+
+
+
+
+
+
+
+// let botaoMais = document.getElementById('#mais')
+// let botaoMenos = document.getElementById('#menos')
 
 // var count = 5;//recebendo o valor 5 que você disse
 // $('#addCount').click(function(){
@@ -39,13 +53,31 @@ let botaoMenos = document.getElementById('#menos')
 // });
 
 
-let contador = 0;
+// let contador = 0;
 
-$('#mais').click(function(){
-    alert(contador);
-    contador++;
-});
+// $('#mais').click(function(){
+//     alert(contador);
+//     contador++;
+// });
 
-function Aumentar(){
-    onclick ()
+// function Aumentar(){
+//     onclick ()
+// }
+
+
+function aparecerImg(){
+    document.slide.src = '../static/img/piscina.png';
 }
+
+window.onload = aparecerImg;
+
+function voltarImg(){
+    document.slide.scr = '../static/img/batedeira-laranja.png';
+}
+
+onclick = voltarImg;
+
+function passarImg(){
+    document.slide.scr = '../static/img/batedeira-vermelha.png';
+}
+
