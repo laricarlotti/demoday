@@ -26,6 +26,11 @@ let triangle = document.querySelector('.triangle');
 });
 
 
+let entrar = document.querySelector('.botao1');
+
+    entrar.addEventListener('click', function(){
+        window.location.href = "login.html"
+});
 
 
 
