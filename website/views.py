@@ -12,10 +12,10 @@ def cadastro(request):
         user.save()
 
         args = {
-            'sucesso': 'Login efetuado com sucesso.'
+            'sucesso': 'Cadastro efetuado com sucesso.'
         }
 
-        return render(request, 'index.html', args)
+        return render(request, 'cadastro.html', args)
 
     return render(request, 'cadastro.html') 
 
