@@ -12,10 +12,10 @@ def cadastro(request):
         user.save()
 
         args = {
-            'sucesso': 'Você conseguiu campeão! Grite: Alucinação!'
+            'sucesso': 'Login efetuado com sucesso.'
         }
 
-        return render(request, 'cadastro.html', args)
+        return render(request, 'index.html', args)
 
     return render(request, 'cadastro.html') 
 
