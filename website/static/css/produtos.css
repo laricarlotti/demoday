@@ -15,7 +15,8 @@
     margin-inline-end: 82px;
     width: 70%;
 
-}    
+}
+
 .avaliacao{
     font-size: 12pt;
     font-weight: 300;
@@ -42,7 +43,17 @@ body{
     margin: 0;
     
 }
+#back{
+    background-color: blue;
+    width: 50px;
+    float: right;
+}
 
+#step{
+    background-color: blue;
+    width: 50px;
+    position: relative;
+}
 button{
     position: absolute;
     width: 336px;
@@ -86,6 +97,12 @@ button{
     top: 715px;
 
 }
+
+.carrossel-batedeira{
+    display: inline-flex;
+    align-items: center;
+}
+
 .dados-principais{
     position: absolute;
     display: block;

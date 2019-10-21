@@ -14,9 +14,7 @@ input[type=busca] {
 
 }
 
-.lupa{
 
-}
 
 ::placeholder{
 font-family: Roboto;
@@ -221,7 +219,7 @@ h5{
     letter-spacing: 0.065em;  
     background-color:white;
     color:#8EC0EF;
-    font-family: ;
+    font-family: "Axilforma-Regular";
     font-size: 13px;
     line-height: 148.9%;
     border-radius: 5px;
@@ -244,8 +242,6 @@ h5{
     display: flex;
 }
 
-.cat-geral{
-}
 
 .cima{
     width: 330px;
@@ -279,3 +275,4 @@ p{
 @font-face{
     font-family: "Axilforma-Regular";
     src:url(../fonts/Axilforma-Regular.otf) format("truetype");
+}
