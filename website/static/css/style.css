@@ -6,7 +6,7 @@
                          'aside aside'
                          'footer footer ';
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 5vh 60vh 34vh 70vh 50vh;
+    grid-template-rows: 6vh 60vh 34vh 70vh 40vh;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -28,11 +28,11 @@ article .all{
     flex-direction: column;
     height: 75%;
     justify-content: space-between;
-    margin: 0 8px;
+    margin: 0px 0px 0px 8px;
    
-     overflow-x: auto;
-     overflow-y: hidden;
-     -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
    
 }
 
@@ -56,7 +56,7 @@ article .blocos{
 }
 article .branco1, .branco2, .branco3, .branco4{
     background: #fff;
-    border-radius: 3px;
+    border-radius: 0px 0px 3px 3px;
     box-shadow: 0px 0px 3px rgba(122, 122, 122, 0.12);
     height: 65px;
     margin: 0;
@@ -65,7 +65,7 @@ article .branco1, .branco2, .branco3, .branco4{
 }
 article .cinza1, .cinza2, .cinza3, .cinza4{
     background: #F9F9F9;
-    border-radius: 3px;
+    border-radius: 3px 3px 0px 0px;
     height: 97px;
     margin: 0;
     width: 124px;
@@ -199,6 +199,8 @@ aside .todas .textos .dropdown-menu p{
     margin-top: 1px;
     color: #292929;
     width: 77px;
+        
+    margin-left: 0px;
 
 }
 .triangle{
@@ -411,6 +413,8 @@ header .infos{
 
 .infos p{
     margin-top: 8px;
+    display: block; 
+    margin-left: 0;
 }
 .bloco-centro .infos p:first-child{
     color: #292929;

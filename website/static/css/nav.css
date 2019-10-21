@@ -41,7 +41,7 @@ main{
     width: 330px;
     z-index: 500;
     left: 45px;
-    border-radius: 13px;
+    border-radius: 0px 0px 5px 5px;
 }
 main a{
     text-decoration: none;
@@ -56,7 +56,6 @@ nav{
     
     left: 0px;
     background-color: rgb(255, 255, 255);
-    z-index: 1000;
 
 }
 
