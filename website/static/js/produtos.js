@@ -7,8 +7,8 @@ let time = 3000;
 // let voltar = document.querySelector('.esquerda')
 
 
-images[0] = document.src= '../static/img/piscina.png';
-images[1] = document.src = '../static/img/batedeira-vermelha.png';
+images[0] = document.src= '../static/img/batedeira-laranja-lado.png';
+images[1] = document.src = '../static/img/batedeira-laranja-equipamentos.png';
 images[2] = document.src ='../static/img/batedeira-laranja.png';
 
 
