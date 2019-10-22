@@ -306,11 +306,28 @@ p{
     width: 50%
 }
 
+
+
+.all{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: space-between;
+    margin: 0px 0px 0px 8px;
+   
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 375px;
+    position: absolute;
+    top: 1050px;
+   
+}
+
 .relacionados{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    position: absolute;
-    top: 985px;
-    left: 15px;
+    justify-content: space-between;
+    
+    width: 550px;
+
 }
