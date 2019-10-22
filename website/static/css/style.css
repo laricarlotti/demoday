@@ -322,7 +322,7 @@ header{
     grid-area: header;
     width: 375px;
     height: 325px;
-    background-image: url("../img/fundo_header2.png");
+    background-image: url("../img/fundo_header1.png");
     background-size: cover;
     
 }
@@ -398,7 +398,7 @@ header .carrossel .bloco-direita{
     left: 305px;
     position: absolute;
     top: 83px;
-    width: 133px;
+    width: 72px;
     background-image: url("../img/aspirador-carrossel.png");
     background-repeat:no-repeat ;
 }
