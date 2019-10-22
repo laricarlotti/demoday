@@ -63,6 +63,7 @@ label[for=email]{
 }
 input[name=email]{
     border: 1px solid #C4C4C4;
+    border-radius: 3px;
     height: 53px;
     left: 20px;
     position: absolute;
@@ -87,6 +88,7 @@ form [for=senha]{
 
 input[type=password] {
     border: 1px solid #C4C4C4;
+    border-radius: 3px;
     height: 53px;
     left: 20px;
     position: absolute;
