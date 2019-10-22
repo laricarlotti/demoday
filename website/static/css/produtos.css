@@ -213,6 +213,7 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-image: url(../img/fundo_produtos.png);
 }
 
 .section-2{
@@ -221,6 +222,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 .section-3{
