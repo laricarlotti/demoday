@@ -216,7 +216,7 @@ p{
 }
 
 .section-2{
-    margin-top: 50px; 
+    margin-top: 105px; 
     width: 375px;
     display: flex;
     align-items: center;
@@ -252,9 +252,9 @@ p{
     top: 300px;
 }
 
-.relacionados{
+/* .relacionados{
     grid-area: relacionados;
-}
+} */
 
 .perfil{
     align-content: center;
@@ -319,7 +319,7 @@ p{
     overflow-y: hidden;
     width: 375px;
     position: absolute;
-    top: 1050px;
+    top: 1000px;
    
 }
 
@@ -327,7 +327,6 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     width: 550px;
 
 }
