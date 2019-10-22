@@ -403,19 +403,25 @@ header .carrossel .bloco-direita{
     background-repeat:no-repeat ;
 }
 header .infos{
-    position: absolute;
-    width: 135.45px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     height: 59.42px;
+    justify-content: space-around;
     left: 9px;
+    position: absolute;
     top: 132px;
+    width: 137.45px;
     
 }
 
 .infos p{
-    margin-top: 8px;
-    display: block; 
-    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 50px; 
+    justify-content: center;
 }
+
 .bloco-centro .infos p:first-child{
     color: #292929;
     font-family: 'Roboto', sans-serif;
@@ -423,16 +429,19 @@ header .infos{
     font-size: 11px;
     line-height: 122.9%;
     letter-spacing: 0.06em;
+    margin: 12px 0 8px 0;
     text-align: center;
 }
 
 .bloco-centro .infos p:last-child{
-
+    align-self: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 10px;
     line-height: 1%;
+    margin-top: 5px;
+    width: 110px;
    
     letter-spacing: 0.325em;
     color: #FC334F;
