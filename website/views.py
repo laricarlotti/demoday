@@ -15,7 +15,7 @@ def cadastro(request):
             'sucesso': 'Cadastro efetuado com sucesso.'
         }
 
-        return render(request, 'cadastro.html', args)
+        return render(request, 'cadastro.html')
 
     return render(request, 'cadastro.html') 
 
