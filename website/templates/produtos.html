@@ -1,6 +1,6 @@
 {% extends "main.html" %}
 {% load static %}
-
+{% block css %} href="{% static 'css/produtos.css' %}" {% endblock%}
 {% block js %} src="{% static 'js/produtos.js' %}" {% endblock%}
 {% block content %}
 
@@ -54,14 +54,8 @@
                     <h6 class="ativo"> Ativo desde </h6>
                     <h6 class="data-entrada"> 27 de junho de 2019</h6>
                 </div>
-            </div>
-            
-        </section>
-    
-        <section class="relacionados">
-    
+            </div>            
         </section>
     </div>
-
 {% endblock %}
 

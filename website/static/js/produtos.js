@@ -1,10 +1,7 @@
-
-// FUNÇÃO FUNCIONANDO PORÉM IMAGENS NÃO APARECEM
+//TROCAR IMAGENS NA PAGINA DE PRODUTOS 
 
 let i = 0;
 let images = [];
-let time = 3000;
-// let voltar = document.querySelector('.esquerda')
 
 
 images[0] = document.src= '../static/img/batedeira-laranja-lado.png';
@@ -25,53 +22,3 @@ function changeImg(){
 }
 
 window = changeImg;
-
-
-
-
-
-
-
-
-
-
-
-
-// let botaoMais = document.getElementById('#mais')
-// let botaoMenos = document.getElementById('#menos')
-
-// var count = 5;//recebendo o valor 5 que você disse
-// $('#addCount').click(function(){
-//   alert(count);
-//   count++;
-// });
-
-
-// let contador = 0;
-
-// $('#mais').click(function(){
-//     alert(contador);
-//     contador++;
-// });
-
-// function Aumentar(){
-//     onclick ()
-// }
-
-
-// function aparecerImg(){
-//     document.slide.src = '../static/img/piscina.png';
-// }
-
-// window.onload = aparecerImg;
-
-// function voltarImg(){
-//     document.slide.scr = '../static/img/batedeira-laranja.png';
-// }
-
-// onclick = voltarImg;
-
-// function passarImg(){
-//     document.slide.scr = '../static/img/batedeira-vermelha.png';
-// }
-
