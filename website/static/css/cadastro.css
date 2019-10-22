@@ -163,3 +163,8 @@ input[type=submit]{
     color: #000000;
     margin-left: 0px;
 }
+
+.alert{
+    background-color: green;
+
+}

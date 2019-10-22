@@ -1,6 +1,7 @@
 {% extends "main.html" %}
 {% load static %}
 {% block css %} href="{% static 'css/cadastro.css' %}" {% endblock %}
+{% block js %} src="{% static 'js/cadastro.js' %}" {% endblock%}
 {% block content %}
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
@@ -29,7 +30,7 @@
         <label for="senha">Senha</label>
         <input class="senha" type="password" name="senha" required>
     
-        <input class="button" type="submit" value="Criar Conta">
+        <input onclick="msg()" class="button" type="submit" value="Criar Conta">
 
     </form>
 
