@@ -1,6 +1,6 @@
 {% extends "main.html" %}
 {% load static %}
-{% block css %} href="{% static 'css/produtos.css' %}" {% endblock%}
+
 {% block js %} src="{% static 'js/produtos.js' %}" {% endblock%}
 {% block content %}
 
@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="{% static 'css/produtos.css'%}">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500,600,700,900&display=swap" rel="stylesheet">
 
+    {% include 'shared/nav.html' %}
     <div class= "produtos">
         <section class="produto-principal">
             <div class="carrossel-batedeira">
@@ -20,11 +21,11 @@
         </section>
         <section class="section-2">
             <form class="quantidade">
-                <input type="button" value="-" id="menos">
-                <input type="number" name="" id="" placeholder="2">
-                <input type="button" value="+" id="mais">
+                <input class="dias" type="button" value="-" id="menos">
+                <input class="dias" type="number" name="" id="" placeholder="1">
+                <input class="dias" type="button" value="+" id="mais">
             </form>
-            <div class="preco"> <span style="color: #fc334f;">R$ 98,00 </span> por dia</div>
+            <div class="preco"> <span class="divisor" style="color: #fc334f;">R$ 98,00 </span> por dia</div>
         </section>
         <section class="section-3">
             <h2>Automática - 10 velocidades</h2>
@@ -51,8 +52,7 @@
                 </div>
                 <div class="ativacao">
                     <h6 class="ativo"> Ativo desde </h6>
-                    <h6 class="data-entrada"> <span class="negrito"> 27 de junho de 2019
-                    </span></h6>
+                    <h6 class="data-entrada"> 27 de junho de 2019</h6>
                 </div>
             </div>
             
