@@ -1,1 +1,1 @@
-web: gunicorn precisei.wsgi --log-file -
+web: gunicorn precisei.wsgi 
