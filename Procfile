@@ -1,1 +1,1 @@
-web: gunicorn precisei.wsgi 
+echo 'web: gunicorn precisei.wsgi --log-file -' > Procfile
