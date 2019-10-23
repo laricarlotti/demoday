@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(255, 255, 255);
+    z-index: 1900;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: 2px;
+    margin-top: 15px;
+
+}
+
+.vetores{
+    height: 20px;
+}
+
+.categorias img{
+    height: 20px;
+    margin-left: 22px;
+    
+}
+
+nav{
+    height:30px;
+}
+
+.usuario{
+position: absolute;
+top: 6px;
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+width: 81.53px;
+height: 81.53px;
+left: 20px;
+}
+
+/* Bem-vindo Entre na sua conta ou crie uma */
+h4{
+    left: 91px;
+    top: 45px;  
+    font-size: 16px;
+    line-height: 148.9%;
+    letter-spacing: 0.025em; 
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    position: initial;
+    width: 224px;
+    height: 6px;
+
+}
+
+
+
+/* botao_entre */
+.botao1{
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    left: 21px;
+    top: 114px;
+    color: white;
+    background-color: #8EC0EF;
+    border-width: 0;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+
+/* Crie a sua conta */
+.botao2{ 
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    left: 198px;
+    top: 114px;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-color: #8EC0EF;
+    color: #8EC0EF;
+    background-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    text-indent: 24px;
+    font-weight: bold;
+    /* or 19px */
+}
+
+.botao1{
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.065em;  
+    background-color: #8EC0EF;
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-radius: 5px;
+    letter-spacing: 0.065em;
+    text-indent: 56px;
+} 
+
+.botao2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;  
+    background-color:white;
+    color:#8EC0EF;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 148.9%;
+    border-radius: 5px;
+} 
+
+.superior{
+    position: relative;
+    left: 120px;
+    top:25px;
+}
+
+.cat-geral{
+}
+
+.cima{
+    position: relative;
+    bottom: 10px;
+}
+.linha{
+    margin-top: 100px;
+}
+
+.icones{
+    position: absolute;
+    top: 215px;
+}
+
+p{
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    margin-left: 30px;
+}
+
+h5{
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+.linha2{
+    margin-top: 20px;
+}
+

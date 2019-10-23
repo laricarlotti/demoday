@@ -1,0 +1,117 @@
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+
+}
+h1{
+    color: #FC334F;
+    display: flex;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 22px;
+    height: 31px;
+    letter-spacing: 0.045em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 114px;
+    width: 224px;
+
+}
+.login .texto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5%;
+    top: 3%;
+
+}
+.login p{
+    color: #C4C4C4;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 13pt;
+
+}
+
+@font-face{
+    font-family: "Axilforma-ExtraBold";
+    src: url("../fonts/Axilforma-ExtraBold.80b3575d39f0.otf") format("truetype");
+
+}
+@font-face{
+    font-family: "Axilforma-Regular";
+    src: url("../fonts/Axilforma-Regular.afaa2ab19c34.otf") format("truetype");
+
+}
+label[for=email]{
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    font-family: "Axilforma-Regular";
+    height: 53px;
+    left: 20px;
+    letter-spacing: 0.005em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 210px;
+    width: 224px;
+
+}
+input[name=email]{
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    height: 53px;
+    left: 20px;
+    position: absolute;
+    top: 260px;
+    width: 336px;
+
+}
+form [for=senha]{
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    font-family: "Axilforma-Regular";
+    height: 53px;
+    left: 20px;
+    letter-spacing: 0.005em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 333px;
+    width: 224px;
+    
+}
+
+input[type=password] {
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    height: 53px;
+    left: 20px;
+    position: absolute;
+    top: 379px;
+    width: 336px;
+
+}
+
+
+form .button{
+    background: #FF8754;
+    border-color: inherit;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    font-family: "Axilforma-Regular";
+    font-size: 16px;
+    height: 50px;
+    left: 20px;
+    letter-spacing: 0.065em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 500px;
+    width: 340px;
+
+}

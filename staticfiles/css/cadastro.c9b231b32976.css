@@ -1,0 +1,170 @@
+body{
+  margin:  0px ;
+}
+.cadastro{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+
+}
+.cadastro h1{
+    color: #FC334F;
+    display: flex;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 22px;
+    height: 31px;
+    left: 90px;
+    letter-spacing: 0.045em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 100px;
+    width: 224px;
+    
+}
+a{
+    text-decoration: none
+}
+
+h2{
+    color: #FF002E;
+    font-family: "Axilforma-ExtraBold";
+    font-size: 14px;
+    line-height: 148.9%;
+    letter-spacing: 0.12em;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.cadastro form:nth-child(3){
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+@font-face{
+    font-family: "Axilforma-ExtraBold";
+    src: url("../fonts/Axilforma-ExtraBold.80b3575d39f0.otf") format("truetype");
+
+}
+@font-face{
+    font-family: "Axilforma-Regular";
+    src: url("../fonts/Axilforma-Regular.afaa2ab19c34.otf") format("truetype");
+
+}
+label[for=nome]{
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    font-family: "Axilforma-Regular";
+    height: 53px;
+    left: 20px;
+    letter-spacing: 0.005em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 200px;
+    width: 224px;
+
+}
+input[type=text] {
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    height: 50px;
+    left: 20px;
+    position: absolute;
+    top: 245px;
+    width: 336px;
+
+}
+form [for=email]{
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    font-family: "Axilforma-Regular";
+    height: 53px;
+    left: 20px;
+    letter-spacing: 0.005em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 320px;
+    width: 224px;
+    
+}
+input[type=email] {
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    height: 53px;
+    left: 20px;
+    position: absolute;
+    top: 365px;
+    width: 336px;
+
+}
+form [for=senha]{
+    align-items: center;
+    color: #9B9B9B;
+    display: flex;
+    height: 53px;
+    left: 20px;
+    letter-spacing: 0.005em;
+    line-height: 148.9%;
+    font-family: "Axilforma-Regular";
+    position: absolute;
+    top: 445px;
+    width: 224px;
+
+}
+form .senha{
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    height: 53px;
+    left: 20px;
+    position: absolute;
+    top: 490px;
+    width: 336px;
+
+}
+input[type=submit]{
+    background: #FF8754;
+    border-color: inherit;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-family: "Axilforma-Regular";
+    font-size: 16px;
+    height: 50px;
+    left: 22px;
+    letter-spacing: 0.065em;
+    line-height: 148.9%;
+    position: absolute;
+    top: 600px;
+    width: 334px;
+
+}
+
+.cadastro p:last-child{
+    position: absolute;
+    width: 324px;
+    height: 58px;
+    left: 25px;
+    top: 660px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 148.9%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 0px;
+}
+
+.alert{
+    background-color: green;
+
+}
